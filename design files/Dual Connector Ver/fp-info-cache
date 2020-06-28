@@ -1,4 +1,4 @@
-18527079097289720
+18538231239218437
 Battery
 BatteryHolder_Bulgin_BX0036_1xC
 Bulgin Battery Holder, BX0036, Battery Type C (https://www.bulgin.com/products/pub/media/bulgin/data/Battery_holders.pdf)
@@ -56658,6 +56658,13 @@ Filter
 2
 2
 Library_Loader
+DLS3XS6AK44X
+DLS3XS6AK44X-1
+Connector
+0
+27
+27
+Library_Loader
 NE555DR
 D (R-PDSO-G8)
 Integrated Circuit
@@ -81607,3 +81614,45 @@ Source: https://www.raspberrypi.org/documentation/hardware/raspberrypi/mechanica
 0
 40
 40
+rascsi_din
+dogcow
+
+
+0
+0
+0
+rascsi_din
+mac_bomb
+
+
+0
+0
+0
+rascsi_din
+mac_happy
+
+
+0
+0
+0
+rascsi_din
+mac_happy_small
+
+
+0
+0
+0
+rascsi_din
+mac_trashcan
+
+
+0
+0
+0
+rascsi_din
+pi_logo
+
+
+0
+0
+0
