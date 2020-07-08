@@ -610,17 +610,6 @@ F 3 "" H 7450 3200 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L power:+5V #PWR028
-U 1 1 6072B611
-P 6150 750
-F 0 "#PWR028" H 6150 600 50  0001 C CNN
-F 1 "+5V" H 6250 800 50  0000 C CNN
-F 2 "" H 6150 750 50  0001 C CNN
-F 3 "" H 6150 750 50  0001 C CNN
-	1    6150 750 
-	1    0    0    -1  
-$EndComp
-$Comp
 L Device:R_Network09 RN5
 U 1 1 6072B618
 P 7100 800
@@ -641,17 +630,6 @@ F 2 "Resistor_THT:R_Array_SIP10" V 7675 1550 50  0001 C CNN
 F 3 "http://www.vishay.com/docs/31509/csc.pdf" H 7100 1550 50  0001 C CNN
 	1    7100 1550
 	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR026
-U 1 1 6072B62D
-P 6050 750
-F 0 "#PWR026" H 6050 500 50  0001 C CNN
-F 1 "GND" H 6200 700 50  0000 C CNN
-F 2 "" H 6050 750 50  0001 C CNN
-F 3 "" H 6050 750 50  0001 C CNN
-	1    6050 750 
-	-1   0    0    1   
 $EndComp
 Text GLabel 7400 3600 2    50   BiDi ~ 0
 C-REQ
@@ -786,7 +764,7 @@ PI-REQ
 Text GLabel 6300 4800 0    50   BiDi ~ 0
 PI-ATN
 Text GLabel 6300 3100 0    50   BiDi ~ 0
-PI-ACK
+PI-ACT
 Text GLabel 6300 5000 0    50   BiDi ~ 0
 PI-RST
 Text GLabel 6300 5100 0    50   BiDi ~ 0
@@ -854,7 +832,7 @@ $EndComp
 Text GLabel 4350 1450 3    50   BiDi ~ 0
 PI-DP
 Text GLabel 750  1000 1    50   BiDi ~ 0
-ACT
+PI-ACT
 $Comp
 L power:GND #PWR08
 U 1 1 60ADC4D2
@@ -1199,7 +1177,7 @@ PI-ATN
 Text GLabel 1150 5150 0    50   BiDi ~ 0
 PI-SEL
 Text GLabel 2750 4150 2    50   BiDi ~ 0
-ACT
+PI-ACT
 $Comp
 L power:+5V #PWR01
 U 1 1 60B793DE
@@ -1338,23 +1316,6 @@ F 3 "" H 3300 7600 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Connection ~ 3300 7600
-$Comp
-L Library_Loader_Parts:DLS3XS6AK44X J2
-U 1 1 5F429403
-P 9200 4650
-F 0 "J2" H 11044 4696 50  0000 L CNN
-F 1 "DLS3XS6AK44X" V 10850 3950 50  0000 L CNN
-F 2 "DLS3XS6AK44X" H 10850 4950 50  0001 L CNN
-F 3 "https://componentsearchengine.com/Datasheets/1/DLS3XS6AK44X.pdf" H 10850 4850 50  0001 L CNN
-F 4 "D-Sub Standard Connectors 25P F R/A .370 4-40 C/W HEX" H 10850 4750 50  0001 L CNN "Description"
-F 5 "12.5" H 10850 4650 50  0001 L CNN "Height"
-F 6 "706-DLS3XS6AK44X" H 10850 4550 50  0001 L CNN "Mouser Part Number"
-F 7 "https://www.mouser.com/Search/Refine.aspx?Keyword=706-DLS3XS6AK44X" H 10850 4450 50  0001 L CNN "Mouser Price/Stock"
-F 8 "CONEC" H 10850 4350 50  0001 L CNN "Manufacturer_Name"
-F 9 "DLS3XS6AK44X" H 10850 4250 50  0001 L CNN "Manufacturer_Part_Number"
-	1    9200 4650
-	0    -1   -1   0   
-$EndComp
 Text GLabel 8700 3850 0    50   BiDi ~ 0
 C-D0
 Text GLabel 9700 3950 2    50   BiDi ~ 0
@@ -1677,17 +1638,6 @@ Images
 Text Notes 8350 5800 0    50   ~ 0
 Mounting Holes
 $Comp
-L power:+5V #PWR048
-U 1 1 5F0B94FB
-P 2950 6250
-F 0 "#PWR048" H 2950 6100 50  0001 C CNN
-F 1 "+5V" V 2950 6450 50  0000 C CNN
-F 2 "" H 2950 6250 50  0001 C CNN
-F 3 "" H 2950 6250 50  0001 C CNN
-	1    2950 6250
-	0    -1   -1   0   
-$EndComp
-$Comp
 L power:GND #PWR047
 U 1 1 5F0B9E0E
 P 2950 6150
@@ -1717,17 +1667,6 @@ Text GLabel 2950 5850 0    50   BiDi ~ 0
 PI_SDA
 Text GLabel 2950 5950 0    50   BiDi ~ 0
 PI_SCL
-$Comp
-L Connector:Conn_01x05_Male J4
-U 1 1 5F0B528E
-P 3150 6050
-F 0 "J4" H 3122 5982 50  0000 R CNN
-F 1 "I2C Pinout" H 3550 6350 50  0000 R CNN
-F 2 "Connector_PinSocket_2.54mm:PinSocket_1x05_P2.54mm_Vertical" H 3150 6050 50  0001 C CNN
-F 3 "~" H 3150 6050 50  0001 C CNN
-	1    3150 6050
-	-1   0    0    1   
-$EndComp
 Wire Notes Line
 	3300 5700 2550 5700
 Wire Notes Line
@@ -1741,55 +1680,13 @@ NoConn ~ 2750 3650
 Wire Notes Line
 	5800 2250 8900 2250
 Wire Wire Line
-	6150 1350 6500 1350
-Wire Wire Line
-	6500 1350 6500 600 
-Wire Wire Line
-	6500 600  6700 600 
-Wire Wire Line
 	6700 600  7800 600 
 Connection ~ 6700 600 
-Wire Wire Line
-	6050 1450 6600 1450
-Wire Wire Line
-	6600 1450 6600 1350
 Wire Wire Line
 	6600 1350 6700 1350
 Wire Wire Line
 	7800 1350 6700 1350
 Connection ~ 6700 1350
-Text Notes 5900 1800 0    39   Italic 0
-Jumper to enable or\ndisable SCSI \ntermination
-$Comp
-L Device:Jumper_NC_Small JP1
-U 1 1 5F16B1A9
-P 6050 950
-F 0 "JP1" H 6000 900 50  0000 L CNN
-F 1 "Term_Enable_GND" H 5850 800 50  0000 L CNN
-F 2 "Connector_PinSocket_2.54mm:PinSocket_1x02_P2.54mm_Vertical" H 6050 950 50  0001 C CNN
-F 3 "~" H 6050 950 50  0001 C CNN
-	1    6050 950 
-	0    1    1    0   
-$EndComp
-$Comp
-L Device:Jumper_NC_Small JP2
-U 1 1 5F16C1FD
-P 6150 950
-F 0 "JP2" H 6100 1050 50  0000 L CNN
-F 1 "Term_Enable_5v" H 5950 1150 50  0000 L CNN
-F 2 "Connector_PinSocket_2.54mm:PinSocket_1x02_P2.54mm_Vertical" H 6150 950 50  0001 C CNN
-F 3 "~" H 6150 950 50  0001 C CNN
-	1    6150 950 
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	6050 850  6050 750 
-Wire Wire Line
-	6150 850  6150 750 
-Wire Wire Line
-	6150 1050 6150 1350
-Wire Wire Line
-	6050 1050 6050 1450
 $Comp
 L rascsi_din-eagle-import:LOGO L7
 U 1 1 5F2D2B3B
@@ -1812,24 +1709,107 @@ F 3 "" H 9550 5950 50  0001 C CNN
 	1    9550 5950
 	-1   0    0    1   
 $EndComp
-Text Notes 5250 2850 0    92   ~ 0
-THIS IS AN ERROR!!!\n
-Text Notes 5250 2650 0    39   ~ 0
-This should be PI-ACT. To correct this, cut \nthe trace to pin 1 of U3, and run a jumper \nwire to Pin 7 of the Raspberry Pi GPIO header.
-Wire Notes Line
-	5200 2400 5200 2900
-Wire Notes Line
-	5200 2900 5900 2900
-Wire Notes Line
-	5900 2900 5900 3150
-Wire Notes Line
-	5900 3150 6350 3150
-Wire Notes Line
-	6350 3150 6350 2900
-Wire Notes Line
-	6350 2900 6700 2900
-Wire Notes Line
-	6700 2900 6700 2400
-Wire Notes Line
-	6700 2400 5200 2400
+$Comp
+L power:+5V #PWR048
+U 1 1 5F0B94FB
+P 2950 6250
+F 0 "#PWR048" H 2950 6100 50  0001 C CNN
+F 1 "+5V" V 2950 6450 50  0000 C CNN
+F 2 "" H 2950 6250 50  0001 C CNN
+F 3 "" H 2950 6250 50  0001 C CNN
+	1    2950 6250
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Connector:Conn_01x05_Male J4
+U 1 1 5F0B528E
+P 3150 6050
+F 0 "J4" H 3122 5982 50  0000 R CNN
+F 1 "I2C Pinout" H 3550 6350 50  0000 R CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_1x05_P2.54mm_Vertical" H 3150 6050 50  0001 C CNN
+F 3 "~" H 3150 6050 50  0001 C CNN
+	1    3150 6050
+	-1   0    0    1   
+$EndComp
+$Comp
+L Library_Loader_Parts:DLS3XS6AK44X J2
+U 1 1 5F429403
+P 9200 4650
+F 0 "J2" H 11044 4696 50  0000 L CNN
+F 1 "DLS3XS6AK44X" V 10850 3950 50  0000 L CNN
+F 2 "DLS3XS6AK44X" H 10850 4950 50  0001 L CNN
+F 3 "https://componentsearchengine.com/Datasheets/1/DLS3XS6AK44X.pdf" H 10850 4850 50  0001 L CNN
+F 4 "D-Sub Standard Connectors 25P F R/A .370 4-40 C/W HEX" H 10850 4750 50  0001 L CNN "Description"
+F 5 "12.5" H 10850 4650 50  0001 L CNN "Height"
+F 6 "706-DLS3XS6AK44X" H 10850 4550 50  0001 L CNN "Mouser Part Number"
+F 7 "https://www.mouser.com/Search/Refine.aspx?Keyword=706-DLS3XS6AK44X" H 10850 4450 50  0001 L CNN "Mouser Price/Stock"
+F 8 "CONEC" H 10850 4350 50  0001 L CNN "Manufacturer_Name"
+F 9 "DLS3XS6AK44X" H 10850 4250 50  0001 L CNN "Manufacturer_Part_Number"
+	1    9200 4650
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	6600 1450 6600 1350
+Wire Wire Line
+	6500 600  6700 600 
+Wire Wire Line
+	6150 850  6150 750 
+Wire Wire Line
+	6050 850  6050 750 
+$Comp
+L power:GND #PWR026
+U 1 1 6072B62D
+P 6050 750
+F 0 "#PWR026" H 6050 500 50  0001 C CNN
+F 1 "GND" H 6200 700 50  0000 C CNN
+F 2 "" H 6050 750 50  0001 C CNN
+F 3 "" H 6050 750 50  0001 C CNN
+	1    6050 750 
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:+5V #PWR028
+U 1 1 6072B611
+P 6150 750
+F 0 "#PWR028" H 6150 600 50  0001 C CNN
+F 1 "+5V" H 6250 800 50  0000 C CNN
+F 2 "" H 6150 750 50  0001 C CNN
+F 3 "" H 6150 750 50  0001 C CNN
+	1    6150 750 
+	1    0    0    -1  
+$EndComp
+Text Notes 5900 1800 0    39   Italic 0
+Jumper to enable or\ndisable SCSI \ntermination
+Wire Wire Line
+	6500 1350 6500 600 
+Wire Wire Line
+	6050 1450 6600 1450
+Wire Wire Line
+	6150 1350 6500 1350
+Wire Wire Line
+	6050 1050 6050 1450
+Wire Wire Line
+	6150 1050 6150 1350
+$Comp
+L Device:Jumper_NC_Small JP1
+U 1 1 5F16B1A9
+P 6050 950
+F 0 "JP1" H 6000 900 50  0000 L CNN
+F 1 "Term_Enable_GND" H 5850 800 50  0000 L CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_1x02_P2.54mm_Vertical" H 6050 950 50  0001 C CNN
+F 3 "~" H 6050 950 50  0001 C CNN
+	1    6050 950 
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:Jumper_NC_Small JP2
+U 1 1 5F16C1FD
+P 6150 950
+F 0 "JP2" H 6100 1050 50  0000 L CNN
+F 1 "Term_Enable_5v" H 5950 1150 50  0000 L CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_1x02_P2.54mm_Vertical" H 6150 950 50  0001 C CNN
+F 3 "~" H 6150 950 50  0001 C CNN
+	1    6150 950 
+	0    1    1    0   
+$EndComp
 $EndSCHEMATC
