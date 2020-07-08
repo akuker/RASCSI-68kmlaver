@@ -1,7 +1,7 @@
 EESchema Schematic File Version 4
 EELAYER 30 0
 EELAYER END
-$Descr User 16630 10336
+$Descr USLetter 11000 8500
 encoding utf-8
 Sheet 1 1
 Title ""
@@ -14,1968 +14,1822 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 Wire Wire Line
-	2900 3800 3300 3800
-Text Label 3300 3800 0    70   ~ 0
-D4
+	7400 3800 7600 3800
 Wire Wire Line
-	7000 9000 5800 9000
+	7600 3800 7600 3900
 Wire Wire Line
-	5800 9000 4200 9000
+	7600 3900 7600 4000
 Wire Wire Line
-	5800 9000 5800 8300
-Text Label 4200 9000 2    70   ~ 0
-D4
-Connection ~ 5800 9000
+	7600 4000 7600 4200
 Wire Wire Line
-	2900 3700 3000 3700
+	7400 4000 7600 4000
 Wire Wire Line
-	3000 3700 3300 3700
+	7400 3900 7600 3900
+Connection ~ 7600 4000
+Connection ~ 7600 3900
 Wire Wire Line
-	3000 4900 3100 4900
+	6300 3700 6200 3700
 Wire Wire Line
-	3100 4900 3100 5100
+	6200 3700 6200 3800
 Wire Wire Line
-	3100 4900 3100 4800
+	6200 3800 6200 3900
 Wire Wire Line
-	3000 3700 3000 4900
-Text Label 3000 4325 0    70   ~ 0
-GND
-Connection ~ 3100 4900
-Text Label 3100 4800 0    70   ~ 0
-GND
-Connection ~ 3000 3700
+	6300 3800 6200 3800
 Wire Wire Line
-	3000 5700 3100 5700
-Text Label 3100 5700 0    70   ~ 0
+	6300 3900 6200 3900
+Connection ~ 6200 3800
+Connection ~ 6200 3900
+Text Label 6300 3700 0    10   ~ 0
 GND
 Wire Wire Line
-	8000 2300 8200 2300
-Text Label 8000 2300 0    10   ~ 0
-GND
+	6300 5200 6200 5200
 Wire Wire Line
-	8000 2900 8200 2900
+	6200 5200 6200 5300
 Wire Wire Line
-	8200 2900 8200 3000
+	6200 5300 6200 5400
 Wire Wire Line
-	8200 3000 8200 3100
+	6200 5400 6200 5500
 Wire Wire Line
-	8200 3100 8200 3300
+	6200 5500 6200 5600
 Wire Wire Line
-	8000 3100 8200 3100
+	6200 5600 6200 5700
 Wire Wire Line
-	8000 3000 8200 3000
-Connection ~ 8200 3100
-Connection ~ 8200 3000
-Text Label 8000 2900 0    10   ~ 0
-GND
+	6300 5600 6200 5600
 Wire Wire Line
-	6900 2800 6800 2800
+	6300 5500 6200 5500
 Wire Wire Line
-	6800 2800 6800 2900
+	6300 5400 6200 5400
 Wire Wire Line
-	6800 2900 6800 3000
+	6300 5300 6200 5300
+Connection ~ 6200 5600
+Connection ~ 6200 5500
+Connection ~ 6200 5400
+Connection ~ 6200 5300
 Wire Wire Line
-	6800 3000 6800 3200
+	7600 5300 7600 5400
 Wire Wire Line
-	6900 2900 6800 2900
+	7600 5400 7600 5500
 Wire Wire Line
-	6900 3000 6800 3000
+	7600 5500 7600 5600
 Wire Wire Line
-	6900 3100 6900 3200
+	7600 5600 7600 5700
 Wire Wire Line
-	6900 3200 6800 3200
+	7400 5600 7600 5600
 Wire Wire Line
-	6800 3200 6800 3300
-Connection ~ 6800 2900
-Connection ~ 6800 3000
-Connection ~ 6800 3200
-Text Label 6900 2800 0    10   ~ 0
-GND
+	7400 5500 7600 5500
 Wire Wire Line
-	6900 4300 6800 4300
+	7400 5400 7600 5400
 Wire Wire Line
-	6800 4300 6800 4400
+	7400 5300 7600 5300
+Connection ~ 7600 5600
+Connection ~ 7600 5500
+Connection ~ 7600 5400
 Wire Wire Line
-	6800 4400 6800 4500
+	5300 3300 5400 3300
 Wire Wire Line
-	6800 4500 6800 4600
+	5400 3300 5400 3400
 Wire Wire Line
-	6800 4600 6800 4700
+	5400 3400 5400 3500
 Wire Wire Line
-	6800 4700 6800 4800
+	5400 3500 5400 3600
 Wire Wire Line
-	6900 4700 6800 4700
+	5400 3600 5400 3700
 Wire Wire Line
-	6900 4600 6800 4600
+	5400 3700 5400 3800
 Wire Wire Line
-	6900 4500 6800 4500
+	5400 3800 5400 3900
 Wire Wire Line
-	6900 4400 6800 4400
-Connection ~ 6800 4700
-Connection ~ 6800 4600
-Connection ~ 6800 4500
-Connection ~ 6800 4400
-Text Label 6900 4300 0    10   ~ 0
-GND
+	5400 3900 5400 4000
 Wire Wire Line
-	8200 4400 8200 4500
+	5300 3900 5400 3900
 Wire Wire Line
-	8200 4500 8200 4600
+	5300 3800 5400 3800
 Wire Wire Line
-	8200 4600 8200 4700
+	5300 3700 5400 3700
 Wire Wire Line
-	8200 4700 8200 4800
+	5300 3600 5400 3600
 Wire Wire Line
-	8000 4700 8200 4700
+	5300 3500 5400 3500
 Wire Wire Line
-	8000 4600 8200 4600
+	5300 3400 5400 3400
 Wire Wire Line
-	8000 4500 8200 4500
+	5400 4000 5300 4000
 Wire Wire Line
-	8000 4400 8200 4400
-Connection ~ 8200 4700
-Connection ~ 8200 4600
-Connection ~ 8200 4500
-Text Label 8200 4400 0    10   ~ 0
-GND
+	4200 3400 4100 3400
 Wire Wire Line
-	6800 3800 6900 3800
-Text Label 6800 3800 0    10   ~ 0
-GND
+	4100 3400 4100 3500
 Wire Wire Line
-	10800 1800 10900 1800
-Text Label 10800 1800 0    10   ~ 0
-GND
+	4200 3500 4100 3500
 Wire Wire Line
-	7000 6700 6900 6700
-Text Label 7000 6700 0    10   ~ 0
-GND
+	4100 3500 4100 3600
 Wire Wire Line
-	6900 8500 7000 8500
-Text Label 6900 8500 0    10   ~ 0
-GND
+	4200 3600 4100 3600
 Wire Wire Line
-	11100 7700 11200 7700
-Text Label 11100 7700 0    10   ~ 0
-GND
+	4100 3600 4100 3700
 Wire Wire Line
-	8100 9300 8300 9300
-Text Label 8100 9300 0    10   ~ 0
-GND
+	4200 3700 4100 3700
 Wire Wire Line
-	1700 4700 1600 4700
+	4100 3700 4100 3800
 Wire Wire Line
-	1800 5400 1700 5400
+	4200 3800 4100 3800
 Wire Wire Line
-	1700 5400 1700 4700
-Text Label 1600 4700 2    70   ~ 0
-GND
+	4100 3800 4100 3900
 Wire Wire Line
-	6900 7800 7000 7800
+	4200 3900 4100 3900
 Wire Wire Line
-	7000 7800 8200 7800
+	4200 4000 4100 4000
 Wire Wire Line
-	8100 6800 8200 6800
+	4100 4000 4100 3900
 Wire Wire Line
-	8200 6800 8200 6900
+	4100 4000 4100 4200
+Connection ~ 5400 3900
+Connection ~ 5400 3800
+Connection ~ 5400 3700
+Connection ~ 5400 3600
+Connection ~ 5400 3500
+Connection ~ 5400 3400
+Connection ~ 4100 3500
+Connection ~ 4100 3600
+Connection ~ 4100 3700
+Connection ~ 4100 3800
+Connection ~ 4100 3900
+Connection ~ 4100 4000
 Wire Wire Line
-	8200 6900 8200 7000
+	5200 4800 5300 4800
 Wire Wire Line
-	8200 7000 8200 7100
+	5200 5100 5300 5100
 Wire Wire Line
-	8200 7100 8200 7200
+	5200 5200 5300 5200
 Wire Wire Line
-	8200 7200 8200 7300
+	5200 5300 5300 5300
 Wire Wire Line
-	8200 7300 8200 7400
+	5200 5400 5300 5400
 Wire Wire Line
-	8200 7400 8200 7500
-Wire Wire Line
-	8100 7400 8200 7400
-Wire Wire Line
-	8100 7300 8200 7300
-Wire Wire Line
-	8100 7200 8200 7200
-Wire Wire Line
-	8100 7100 8200 7100
-Wire Wire Line
-	8100 7000 8200 7000
-Wire Wire Line
-	8100 6900 8200 6900
-Wire Wire Line
-	8200 7800 8200 7500
-Wire Wire Line
-	8200 7500 8100 7500
-Wire Wire Line
-	7000 6900 6900 6900
-Wire Wire Line
-	6900 6900 6900 7000
-Wire Wire Line
-	7000 7000 6900 7000
-Wire Wire Line
-	6900 7000 6900 7100
-Wire Wire Line
-	7000 7100 6900 7100
-Wire Wire Line
-	6900 7100 6900 7200
-Wire Wire Line
-	7000 7200 6900 7200
-Wire Wire Line
-	6900 7200 6900 7300
-Wire Wire Line
-	7000 7300 6900 7300
-Wire Wire Line
-	6900 7300 6900 7400
-Wire Wire Line
-	7000 7400 6900 7400
-Wire Wire Line
-	7000 7500 6900 7500
-Wire Wire Line
-	6900 7500 6900 7400
-Wire Wire Line
-	6900 7500 6900 7700
-Wire Wire Line
-	6900 7700 7000 7700
-Wire Wire Line
-	7000 7700 7000 7800
-Connection ~ 8200 7400
-Connection ~ 8200 7300
-Connection ~ 8200 7200
-Connection ~ 8200 7100
-Connection ~ 8200 7000
-Connection ~ 8200 6900
-Connection ~ 8200 7500
-Connection ~ 6900 7000
-Connection ~ 6900 7100
-Connection ~ 6900 7200
-Connection ~ 6900 7300
-Connection ~ 6900 7400
-Connection ~ 6900 7500
-Connection ~ 7000 7800
-Text Label 6900 7800 0    10   ~ 0
-GND
-Wire Wire Line
-	8000 3900 8200 3900
-Text Label 8000 3900 0    10   ~ 0
-GND
-Wire Wire Line
-	5200 1000 5600 1000
-Text Label 5200 1000 0    10   ~ 0
-GND
-Wire Wire Line
-	11400 5600 11800 5600
-Wire Wire Line
-	11800 5600 11800 5000
-Wire Wire Line
-	11800 5000 11400 5000
-Wire Wire Line
-	11400 4600 11800 4600
-Wire Wire Line
-	11800 4600 11800 4800
-Wire Wire Line
-	11800 4800 11800 5000
-Wire Wire Line
-	11400 4100 11800 4100
-Wire Wire Line
-	11800 4100 11800 4600
-Wire Wire Line
-	11400 4800 11800 4800
-Wire Wire Line
-	11400 3900 11800 3900
-Wire Wire Line
-	11800 3900 11800 4100
-Wire Wire Line
-	11800 3900 12000 3900
-Connection ~ 11800 5000
-Connection ~ 11800 4600
-Connection ~ 11800 4800
-Connection ~ 11800 4100
-Connection ~ 11800 3900
-Text Label 12000 3900 0    50   ~ 0
-GND
-Text Label 11600 3900 0    50   ~ 0
-GND
-Text Label 11500 4100 0    50   ~ 0
-GND
-Text Label 11500 4600 0    50   ~ 0
-GND
-Text Label 11500 4800 0    50   ~ 0
-GND
-Text Label 11500 5000 0    50   ~ 0
-GND
-Text Label 11500 5600 0    50   ~ 0
-GND
-Wire Wire Line
-	2900 3900 3300 3900
-Text Label 3300 3900 0    70   ~ 0
-D5
-Wire Wire Line
-	7000 9100 6000 9100
-Wire Wire Line
-	6000 9100 4200 9100
-Wire Wire Line
-	6000 8300 6000 9100
-Text Label 4200 9100 2    70   ~ 0
-D5
-Connection ~ 6000 9100
-Wire Wire Line
-	2900 4000 3300 4000
-Text Label 3300 4000 0    70   ~ 0
-DP
-Wire Wire Line
-	4000 2000 4000 6800
-Text Label 4000 2000 0    10   ~ 0
-DP
-Wire Wire Line
-	7000 6800 4800 6800
-Wire Wire Line
-	4800 6800 4100 6800
-Wire Wire Line
-	4800 8300 4800 6800
-Text Label 4100 6800 2    70   ~ 0
-DP
-Connection ~ 4800 6800
-Wire Wire Line
-	2900 4200 3300 4200
-Text Label 3300 4200 0    70   ~ 0
-REQ
-Wire Wire Line
-	6900 2600 6400 2600
-Wire Wire Line
-	6400 2600 4800 2600
-Wire Wire Line
-	6400 4700 6400 2600
-Text Label 4800 2600 2    70   ~ 0
-REQ
-Text Label 6100 2600 0    70   ~ 0
-REQ
-Connection ~ 6400 2600
-Wire Wire Line
-	2900 4300 3300 4300
-Text Label 3300 4300 0    70   ~ 0
-CD
-Wire Wire Line
-	6900 2500 6200 2500
-Wire Wire Line
-	6200 2500 4500 2500
-Wire Wire Line
-	6200 4700 6200 2500
-Text Label 4500 2500 2    70   ~ 0
-CD
-Text Label 6100 2500 0    70   ~ 0
-CD
-Connection ~ 6200 2500
-Wire Wire Line
-	2900 4500 3300 4500
-Text Label 3300 4500 0    70   ~ 0
-BSY
-Wire Wire Line
-	6900 2300 5800 2300
-Wire Wire Line
-	5800 2300 4500 2300
-Wire Wire Line
-	5800 4700 5800 2300
-Text Label 4500 2300 2    70   ~ 0
-BSY
-Text Label 6100 2300 0    70   ~ 0
-BSY
-Connection ~ 5800 2300
-Wire Wire Line
-	2900 5400 3300 5400
-Text Label 3300 5400 0    70   ~ 0
-RST
-Wire Wire Line
-	6900 4100 5400 4100
-Wire Wire Line
-	5400 4100 4800 4100
-Wire Wire Line
-	5400 4700 5400 4100
-Text Label 4800 4100 2    70   ~ 0
-RST
-Connection ~ 5400 4100
-Wire Wire Line
-	2900 5300 3300 5300
-Text Label 3300 5300 0    70   ~ 0
-ACK
-Wire Wire Line
-	6900 4000 5200 4000
-Wire Wire Line
-	5200 4000 4700 4000
-Wire Wire Line
-	5200 4700 5200 4000
-Text Label 4700 4000 2    70   ~ 0
-ACK
-Connection ~ 5200 4000
-Wire Wire Line
-	2900 5200 3300 5200
-Text Label 3300 5200 0    70   ~ 0
-D6
-Wire Wire Line
-	7000 9200 6200 9200
-Wire Wire Line
-	6200 9200 4200 9200
-Wire Wire Line
-	6200 8300 6200 9200
-Text Label 4200 9200 2    70   ~ 0
-D6
-Connection ~ 6200 9200
-Wire Wire Line
-	2900 5000 3300 5000
-Text Label 3300 5000 0    70   ~ 0
-D2
-Wire Wire Line
-	5400 8800 4200 8800
-Wire Wire Line
-	5400 8300 5400 8800
-Wire Wire Line
-	5400 8800 7000 8800
-Text Label 4200 8800 2    70   ~ 0
-D2
-Connection ~ 5400 8800
-Wire Wire Line
-	1800 3800 1400 3800
-Text Label 1400 3800 2    70   ~ 0
-ACT
-Wire Wire Line
-	6900 2200 4800 2200
-Text Label 4800 2200 2    70   ~ 0
-ACT
-Text Label 6100 2200 0    70   ~ 0
-ACT
-Wire Wire Line
-	5600 900  5200 900 
-Text Label 5200 900  0    70   ~ 0
-ACT
-Text Label 5200 900  0    70   ~ 0
-ACT
-Wire Wire Line
-	1800 5300 1400 5300
-Text Label 1400 5300 2    70   ~ 0
-IO
-Wire Wire Line
-	6300 6200 6300 4900
-Wire Wire Line
-	6300 4400 6700 4400
-Wire Wire Line
-	6700 4400 6700 4900
-Wire Wire Line
-	6700 4900 6300 4900
-Wire Wire Line
-	6300 6200 8200 6200
-Wire Wire Line
-	8200 6200 8200 6600
-Wire Wire Line
-	8200 6600 8100 6600
-Wire Wire Line
-	6300 6200 6300 8000
-Wire Wire Line
-	6300 8000 8300 8000
-Wire Wire Line
-	8300 8000 8300 8400
-Wire Wire Line
-	8300 8400 8100 8400
-Wire Wire Line
-	6900 2700 6600 2700
-Wire Wire Line
-	6600 2700 6300 2700
-Wire Wire Line
-	6300 2700 4500 2700
-Wire Wire Line
-	6300 4400 6300 2700
-Wire Wire Line
-	6600 4700 6600 2700
-Connection ~ 6300 6200
-Text Label 4500 2700 2    70   ~ 0
-IO
-Connection ~ 6300 2700
-Text Label 7800 6200 0    70   ~ 0
-IO
-Text Label 6100 2700 0    70   ~ 0
-IO
-Connection ~ 6600 2700
-Wire Wire Line
-	1800 5200 1400 5200
-Text Label 1400 5200 2    70   ~ 0
-SEL
-Wire Wire Line
-	6900 4200 5600 4200
-Wire Wire Line
-	5600 4200 4600 4200
-Wire Wire Line
-	5600 4700 5600 4200
-Text Label 4600 4200 2    70   ~ 0
-SEL
-Connection ~ 5600 4200
-Wire Wire Line
-	1800 5100 1400 5100
-Text Label 1400 5100 2    70   ~ 0
-D3
-Wire Wire Line
-	7000 8900 5600 8900
-Wire Wire Line
-	5600 8900 4200 8900
-Wire Wire Line
-	5600 8300 5600 8900
-Text Label 4200 8900 2    70   ~ 0
-D3
-Connection ~ 5600 8900
-Wire Wire Line
-	1800 4600 1400 4600
-Text Label 1400 4600 2    70   ~ 0
-D1
-Wire Wire Line
-	7000 8700 5200 8700
-Wire Wire Line
-	5200 8700 4200 8700
-Wire Wire Line
-	5200 8300 5200 8700
-Text Label 4200 8700 2    70   ~ 0
-D1
-Connection ~ 5200 8700
-Wire Wire Line
-	1800 4400 1400 4400
-Text Label 1400 4400 2    70   ~ 0
-D0
-Wire Wire Line
-	7000 8600 5000 8600
-Wire Wire Line
-	5000 8600 4200 8600
-Wire Wire Line
-	5000 8300 5000 8600
-Text Label 4200 8600 2    70   ~ 0
-D0
-Connection ~ 5000 8600
-Wire Wire Line
-	1800 4200 1400 4200
-Text Label 1400 4200 2    70   ~ 0
-MSG
-Wire Wire Line
-	6900 2400 6000 2400
-Wire Wire Line
-	6000 2400 4800 2400
-Wire Wire Line
-	6000 4700 6000 2400
-Text Label 4800 2400 2    70   ~ 0
-MSG
-Text Label 6100 2400 0    70   ~ 0
-MSG
-Connection ~ 6000 2400
-Wire Wire Line
-	1800 4100 1400 4100
-Text Label 1400 4100 2    70   ~ 0
-ATN
-Wire Wire Line
-	6900 3900 5000 3900
-Wire Wire Line
-	5000 3900 4800 3900
-Wire Wire Line
-	5000 4700 5000 3900
-Text Label 4800 3900 2    70   ~ 0
-ATN
-Connection ~ 5000 3900
-Wire Wire Line
-	1800 4000 1400 4000
-Text Label 1450 4000 2    70   ~ 0
-D7
-Wire Wire Line
-	7000 9300 6400 9300
-Wire Wire Line
-	6400 9300 4200 9300
-Wire Wire Line
-	6400 8300 6400 9300
-Text Label 4200 9300 2    70   ~ 0
-D7
-Connection ~ 6400 9300
-Wire Wire Line
-	1300 2800 1300 3000
-Wire Wire Line
-	1300 3000 1000 3000
-Text Label 1000 3000 2    70   ~ 0
-+3V3
-Wire Wire Line
-	4400 4700 4600 4700
-Text Label 4400 4700 0    10   ~ 0
-+3V3
-Wire Wire Line
-	4200 8300 4400 8300
-Text Label 4200 8300 0    10   ~ 0
-+3V3
-Wire Wire Line
-	1800 4300 1600 4300
-Text Label 1600 4300 2    70   ~ 0
-+3V3
-Wire Wire Line
-	2100 2800 2100 3000
-Wire Wire Line
-	2100 3000 1800 3000
-Text Label 1800 3000 2    70   ~ 0
-+5V
-Wire Wire Line
-	2900 3500 3200 3500
-Wire Wire Line
-	3200 3500 3300 3500
-Wire Wire Line
-	2900 3600 3200 3600
-Wire Wire Line
-	3200 3600 3200 3500
-Text Label 3300 3500 0    70   ~ 0
-+5V
-Connection ~ 3200 3500
-Wire Wire Line
-	8100 2200 8000 2200
-Text Label 8100 2200 0    10   ~ 0
-+5V
-Wire Wire Line
-	15700 4400 15400 4400
-Text Label 15700 4400 0    10   ~ 0
-+5V
-Wire Wire Line
-	6800 6500 6900 6500
-Wire Wire Line
-	6900 6500 6900 6600
-Wire Wire Line
-	6900 6600 7000 6600
-Text Label 6800 6500 0    10   ~ 0
-+5V
-Wire Wire Line
-	6800 8300 6900 8300
-Wire Wire Line
-	6900 8300 6900 8400
-Wire Wire Line
-	6900 8400 7000 8400
-Text Label 6800 8300 0    10   ~ 0
-+5V
-Wire Wire Line
-	8100 3800 8000 3800
-Text Label 8100 3800 0    10   ~ 0
-+5V
-Wire Wire Line
-	9000 7300 8800 7300
-Text Label 9000 7300 0    10   ~ 0
-+5V
-Wire Wire Line
-	8500 2000 8400 2000
-Text Label 8500 2000 0    10   ~ 0
-+5V
-Wire Wire Line
-	8900 2400 10100 2400
-Wire Wire Line
-	10100 2400 10100 5800
-Wire Wire Line
-	10100 5800 12600 5800
-Wire Wire Line
-	8900 2000 8900 2400
-Wire Wire Line
-	11300 1800 11300 2400
-Wire Wire Line
-	11300 2400 10100 2400
-Wire Wire Line
-	8900 2400 8900 3000
-Wire Wire Line
-	8900 3000 8400 3000
-Wire Wire Line
-	8400 3000 8400 2800
-Wire Wire Line
-	8400 2800 8000 2800
-Wire Wire Line
-	12600 5800 12600 3500
-Wire Wire Line
-	12600 3500 12600 3300
-Wire Wire Line
-	11400 3500 12600 3500
-Connection ~ 10100 2400
-Connection ~ 8900 2400
-Text Label 8200 2800 0    70   ~ 0
-C-IO
-Text Label 12600 3300 1    50   ~ 0
-C-IO
-Connection ~ 12600 3500
-Text Label 11500 3500 0    50   ~ 0
-C-IO
-Wire Wire Line
-	9100 2500 10000 2500
-Wire Wire Line
-	10000 2500 10000 5900
-Wire Wire Line
-	10000 5900 12700 5900
-Wire Wire Line
-	9100 2000 9100 2500
-Wire Wire Line
-	11500 1800 11500 2500
-Wire Wire Line
-	11500 2500 10000 2500
-Wire Wire Line
-	9100 2500 9100 2900
-Wire Wire Line
-	9100 2900 8500 2900
-Wire Wire Line
-	8500 2900 8500 2700
-Wire Wire Line
-	8500 2700 8000 2700
-Wire Wire Line
-	12700 5900 12700 3200
-Wire Wire Line
-	12700 3200 11500 3200
-Wire Wire Line
-	11500 3200 11500 3300
-Wire Wire Line
-	11500 3300 11400 3300
-Connection ~ 10000 2500
-Connection ~ 9100 2500
-Text Label 8200 2700 0    70   ~ 0
-C-REQ
-Text Label 12700 3275 1    50   ~ 0
-C-REQ
-Text Label 11500 3300 0    50   ~ 0
-C-REQ
-Wire Wire Line
-	8000 2600 9300 2600
-Wire Wire Line
-	9300 2600 9900 2600
-Wire Wire Line
-	9900 2600 9900 6000
-Wire Wire Line
-	9900 6000 12800 6000
-Wire Wire Line
-	9300 2000 9300 2600
-Wire Wire Line
-	11700 1800 11700 2600
-Wire Wire Line
-	11700 2600 9900 2600
-Wire Wire Line
-	12800 6000 12800 4700
-Wire Wire Line
-	12800 4700 12800 3300
-Wire Wire Line
-	11400 4700 12800 4700
-Connection ~ 9300 2600
-Connection ~ 9900 2600
-Text Label 8500 2600 0    70   ~ 0
-C-CD
-Text Label 12800 3300 1    50   ~ 0
-C-CD
-Connection ~ 12800 4700
-Text Label 11500 4700 0    50   ~ 0
-C-CD
-Wire Wire Line
-	9500 2700 9800 2700
-Wire Wire Line
-	9800 2700 9800 6100
-Wire Wire Line
-	9800 6100 12900 6100
-Wire Wire Line
-	9500 2700 9500 2000
-Wire Wire Line
-	11900 1800 11900 2700
-Wire Wire Line
-	11900 2700 9800 2700
-Wire Wire Line
-	9500 2700 8700 2700
-Wire Wire Line
-	8700 2700 8700 2500
-Wire Wire Line
-	8700 2500 8000 2500
-Wire Wire Line
-	12900 6100 12900 3400
-Wire Wire Line
-	12900 3400 12900 3300
-Wire Wire Line
-	11400 3400 12900 3400
-Connection ~ 9800 2700
-Connection ~ 9500 2700
-Text Label 8500 2500 0    70   ~ 0
-C-MSG
-Text Label 12900 3300 1    50   ~ 0
-C-MSG
-Connection ~ 12900 3400
-Text Label 11500 3400 0    50   ~ 0
-C-MSG
-Wire Wire Line
-	9700 2800 9700 6200
-Wire Wire Line
-	9700 6200 13000 6200
-Wire Wire Line
-	9700 2000 9700 2800
-Wire Wire Line
-	9700 2800 12100 2800
-Wire Wire Line
-	12100 2800 12100 1800
-Wire Wire Line
-	9700 2800 8800 2800
-Wire Wire Line
-	8800 2800 8800 2400
-Wire Wire Line
-	8800 2400 8000 2400
-Wire Wire Line
-	13000 6200 13000 3800
-Wire Wire Line
-	13000 3800 13000 3300
-Wire Wire Line
-	11400 3800 13000 3800
-Connection ~ 9700 2800
-Text Label 8500 2400 0    70   ~ 0
-C-BSY
-Text Label 13000 3300 1    50   ~ 0
-C-BSY
-Connection ~ 13000 3800
-Text Label 11525 3800 0    50   ~ 0
-C-BSY
-Wire Wire Line
-	8600 4000 9600 4000
-Wire Wire Line
-	9600 4000 9600 6300
-Wire Wire Line
-	9600 6300 13100 6300
-Wire Wire Line
-	9900 2000 9900 2200
-Wire Wire Line
-	9900 2200 10200 2200
-Wire Wire Line
-	10200 2200 10200 2900
-Wire Wire Line
-	10200 2900 10200 4000
-Wire Wire Line
-	10200 4000 9600 4000
-Wire Wire Line
-	10200 2900 12300 2900
-Wire Wire Line
-	12300 2900 12300 1800
-Wire Wire Line
-	8600 4000 8600 4300
-Wire Wire Line
-	8600 4300 8000 4300
-Wire Wire Line
-	13100 6300 13100 5100
-Wire Wire Line
-	13100 5100 13100 3300
-Wire Wire Line
-	11400 5100 13100 5100
-Connection ~ 9600 4000
-Connection ~ 10200 2900
-Text Label 8900 4000 0    70   ~ 0
-C-SEL
-Text Label 13100 3300 1    50   ~ 0
-C-SEL
-Connection ~ 13100 5100
-Text Label 11500 5100 0    50   ~ 0
-C-SEL
-Wire Wire Line
-	8500 4100 9500 4100
-Wire Wire Line
-	9500 4100 9500 6400
-Wire Wire Line
-	9500 6400 13200 6400
-Wire Wire Line
-	9500 4100 10300 4100
-Wire Wire Line
-	10300 4100 10300 3000
-Wire Wire Line
-	10300 3000 10300 2100
-Wire Wire Line
-	10300 2100 10100 2100
-Wire Wire Line
-	10100 2100 10100 2000
-Wire Wire Line
-	10300 3000 12500 3000
-Wire Wire Line
-	12500 1800 12500 3000
-Wire Wire Line
-	8500 4100 8500 4200
-Wire Wire Line
-	8500 4200 8000 4200
-Wire Wire Line
-	13200 6400 13200 3600
-Wire Wire Line
-	13200 3600 13200 3300
-Wire Wire Line
-	11400 3600 13200 3600
-Connection ~ 9500 4100
-Connection ~ 10300 3000
-Text Label 8900 4100 0    70   ~ 0
-C-RST
-Text Label 13200 3300 1    50   ~ 0
-C-RST
-Connection ~ 13200 3600
-Text Label 11525 3600 0    50   ~ 0
-C-RST
-Wire Wire Line
-	8700 4200 9400 4200
-Wire Wire Line
-	9400 4200 9400 6500
-Wire Wire Line
-	9400 6500 13300 6500
-Wire Wire Line
-	10300 2000 10400 2100
-Wire Wire Line
-	10400 2100 10400 3100
-Wire Wire Line
-	10400 3100 10400 4200
-Wire Wire Line
-	10400 4200 9400 4200
-Wire Wire Line
-	12700 1800 12700 3100
-Wire Wire Line
-	12700 3100 10400 3100
-Wire Wire Line
-	8700 4200 8700 4400
-Wire Wire Line
-	8700 4400 8400 4400
-Wire Wire Line
-	8400 4400 8400 4100
-Wire Wire Line
-	8400 4100 8000 4100
-Wire Wire Line
-	13300 6500 13300 3700
-Wire Wire Line
-	13300 3700 13300 3300
-Wire Wire Line
-	11400 3700 13300 3700
-Connection ~ 9400 4200
-Connection ~ 10400 3100
-Text Label 8900 4200 0    70   ~ 0
-C-ACK
-Text Label 13300 3300 1    50   ~ 0
-C-ACK
-Connection ~ 13300 3700
-Text Label 11500 3700 0    50   ~ 0
-C-ACK
-Wire Wire Line
-	8800 4300 9300 4300
-Wire Wire Line
-	9300 4300 9300 6600
-Wire Wire Line
-	9300 6600 13400 6600
-Wire Wire Line
-	9300 4300 10500 4300
-Wire Wire Line
-	10500 4300 10500 2200
-Wire Wire Line
-	10500 2200 10500 2000
-Wire Wire Line
-	12900 1800 12900 2200
-Wire Wire Line
-	12900 2200 10500 2200
-Wire Wire Line
-	8800 4300 8800 3900
-Wire Wire Line
-	8800 3900 8500 3900
-Wire Wire Line
-	8500 3900 8500 4000
-Wire Wire Line
-	8500 4000 8000 4000
-Wire Wire Line
-	13400 6600 13400 4900
-Wire Wire Line
-	13400 4900 13400 3300
-Wire Wire Line
-	11400 4900 13400 4900
-Connection ~ 9300 4300
-Connection ~ 10500 2200
-Text Label 8900 4300 0    70   ~ 0
-C-ATN
-Text Label 13400 3300 1    50   ~ 0
-C-ATN
-Connection ~ 13400 4900
-Text Label 11500 4900 0    50   ~ 0
-C-ATN
-Wire Wire Line
-	8100 6700 9400 6700
-Wire Wire Line
-	9400 6700 11600 6700
-Wire Wire Line
-	11600 6700 13500 6700
-Wire Wire Line
-	9400 7300 9400 6700
-Wire Wire Line
-	11600 7700 11600 6700
-Wire Wire Line
-	13500 6700 13500 5200
-Wire Wire Line
-	13500 5200 13500 3300
-Wire Wire Line
-	11400 5200 13500 5200
-Text Label 8400 6700 0    70   ~ 0
-C-DP
-Connection ~ 9400 6700
-Connection ~ 11600 6700
-Text Label 13500 3300 1    50   ~ 0
-C-DP
-Connection ~ 13500 5200
-Text Label 11500 5200 0    50   ~ 0
-C-DP
-Wire Wire Line
-	13800 3300 13800 4000
-Wire Wire Line
-	13800 4000 13800 8500
-Wire Wire Line
-	8000 8500 8100 8500
-Wire Wire Line
-	8100 8500 9500 8500
-Wire Wire Line
-	9500 8500 11800 8500
-Wire Wire Line
-	11800 8500 13800 8500
-Wire Wire Line
-	9600 7300 9500 7300
-Wire Wire Line
-	9500 7300 9500 8500
-Wire Wire Line
-	11800 7700 11800 8500
-Wire Wire Line
-	11400 4000 13800 4000
-Connection ~ 8100 8500
-Text Label 8400 8500 0    70   ~ 0
-C-D0
-Connection ~ 9500 8500
-Connection ~ 11800 8500
-Text Label 13800 3300 1    50   ~ 0
-C-D0
-Connection ~ 13800 4000
-Text Label 11500 4000 0    50   ~ 0
-C-D0
-Wire Wire Line
-	8100 8600 9800 8600
-Wire Wire Line
-	9800 8600 12000 8600
-Wire Wire Line
-	12000 8600 13900 8600
-Wire Wire Line
-	13900 8600 13900 5300
-Wire Wire Line
-	13900 5300 13900 3300
-Wire Wire Line
-	9800 7300 9800 8600
-Wire Wire Line
-	12000 7700 12000 8600
-Wire Wire Line
-	11400 5300 13900 5300
-Text Label 8400 8600 0    70   ~ 0
-C-D1
-Connection ~ 9800 8600
-Connection ~ 12000 8600
-Text Label 13900 3300 1    50   ~ 0
-C-D1
-Connection ~ 13900 5300
-Text Label 11500 5300 0    50   ~ 0
-C-D1
-Wire Wire Line
-	8100 8700 10000 8700
-Wire Wire Line
-	10000 8700 12200 8700
-Wire Wire Line
-	12200 8700 14000 8700
-Wire Wire Line
-	14000 8700 14000 5400
-Wire Wire Line
-	14000 5400 14000 3300
-Wire Wire Line
-	10000 7300 10000 8700
-Wire Wire Line
-	12200 7700 12200 8700
-Wire Wire Line
-	11400 5400 14000 5400
-Text Label 8425 8700 0    70   ~ 0
-C-D2
-Connection ~ 10000 8700
-Connection ~ 12200 8700
-Text Label 14000 3300 1    50   ~ 0
-C-D2
-Connection ~ 14000 5400
-Text Label 11500 5400 0    50   ~ 0
-C-D2
-Wire Wire Line
-	8000 8800 8100 8800
-Wire Wire Line
-	8100 8800 10200 8800
-Wire Wire Line
-	10200 8800 12400 8800
-Wire Wire Line
-	12400 8800 14100 8800
-Wire Wire Line
-	14100 8800 14100 4200
-Wire Wire Line
-	14100 4200 14100 3300
-Wire Wire Line
-	10200 7300 10200 8800
-Wire Wire Line
-	12400 7700 12400 8800
-Wire Wire Line
-	11400 4200 14100 4200
-Connection ~ 8100 8800
-Text Label 8425 8800 0    70   ~ 0
-C-D3
-Connection ~ 10200 8800
-Connection ~ 12400 8800
-Text Label 14100 3300 1    50   ~ 0
-C-D3
-Connection ~ 14100 4200
-Text Label 11500 4200 0    50   ~ 0
-C-D3
-Wire Wire Line
-	8000 8900 8100 8900
-Wire Wire Line
-	8100 8900 10400 8900
-Wire Wire Line
-	10400 8900 12600 8900
-Wire Wire Line
-	12600 8900 14200 8900
-Wire Wire Line
-	14200 8900 14200 5500
-Wire Wire Line
-	14200 5500 14200 3300
-Wire Wire Line
-	10400 7300 10400 8900
-Wire Wire Line
-	12600 7700 12600 8900
-Wire Wire Line
-	11400 5500 14200 5500
-Connection ~ 8100 8900
-Text Label 8400 8900 0    70   ~ 0
-C-D4
-Connection ~ 10400 8900
-Connection ~ 12600 8900
-Text Label 14200 3300 1    50   ~ 0
-C-D4
-Connection ~ 14200 5500
-Text Label 11500 5500 0    50   ~ 0
-C-D4
-Wire Wire Line
-	8000 9000 8100 9000
-Wire Wire Line
-	8100 9000 10600 9000
-Wire Wire Line
-	10600 9000 12800 9000
-Wire Wire Line
-	12800 9000 14300 9000
-Wire Wire Line
-	14300 9000 14300 4300
-Wire Wire Line
-	14300 4300 14300 3300
-Wire Wire Line
-	10600 7300 10600 9000
-Wire Wire Line
-	12800 7700 12800 9000
-Wire Wire Line
-	11400 4300 14300 4300
-Connection ~ 8100 9000
-Text Label 8400 9000 0    70   ~ 0
-C-D5
-Connection ~ 10600 9000
-Connection ~ 12800 9000
-Text Label 14300 3300 1    50   ~ 0
-C-D5
-Connection ~ 14300 4300
-Text Label 11500 4300 0    50   ~ 0
-C-D5
-Wire Wire Line
-	8000 9100 8100 9100
-Wire Wire Line
-	8100 9100 10800 9100
-Wire Wire Line
-	10800 9100 13000 9100
-Wire Wire Line
-	13000 9100 14400 9100
-Wire Wire Line
-	14400 9100 14400 4400
-Wire Wire Line
-	14400 4400 14400 3300
-Wire Wire Line
-	10800 7300 10800 9100
-Wire Wire Line
-	13000 7700 13000 9100
-Wire Wire Line
-	11400 4400 14400 4400
-Connection ~ 8100 9100
-Text Label 8400 9100 0    70   ~ 0
-C-D6
-Connection ~ 10800 9100
-Connection ~ 13000 9100
-Text Label 14400 3300 1    50   ~ 0
-C-D6
-Connection ~ 14400 4400
-Text Label 11500 4400 0    50   ~ 0
-C-D6
-Wire Wire Line
-	14500 3300 14500 4500
-Wire Wire Line
-	14500 4500 14500 9200
-Wire Wire Line
-	14500 9200 13300 9200
-Wire Wire Line
-	13300 9200 11000 9200
-Wire Wire Line
-	11000 9200 8100 9200
-Wire Wire Line
-	8100 9200 8000 9200
-Wire Wire Line
-	11000 7300 11000 9200
-Wire Wire Line
-	13200 7700 13300 7700
-Wire Wire Line
-	13300 7700 13300 9200
-Wire Wire Line
-	11400 4500 14500 4500
-Connection ~ 8100 9200
-Text Label 8400 9200 0    70   ~ 0
-C-D7
-Connection ~ 11000 9200
-Connection ~ 13300 9200
-Text Label 14500 3300 1    50   ~ 0
-C-D7
-Connection ~ 14500 4500
-Text Label 11500 4500 0    50   ~ 0
-C-D7
-Wire Wire Line
-	14700 4400 14600 4400
-Wire Wire Line
-	14600 4400 14600 3300
-Wire Wire Line
-	14600 4400 14600 5700
-Wire Wire Line
-	14600 5700 14600 6600
-Wire Wire Line
-	11400 5700 14600 5700
-Connection ~ 14600 4400
-Text Label 14600 3300 1    50   ~ 0
-TERMPOW
-Connection ~ 14600 5700
-Text Label 11500 5700 0    50   ~ 0
-TERMPOW
-Wire Wire Line
-	15200 4400 15000 4400
-Wire Wire Line
-	15000 4400 14900 4400
-Connection ~ 15000 4400
+	5300 5500 5200 5500
 $Comp
-L rascsi_din-eagle-import:ZERO U$1
-U 1 1 89E33A62
-P 2300 4400
-F 0 "U$1" H 2300 4400 50  0001 C CNN
-F 1 "ZERO" H 2300 4400 50  0001 C CNN
-F 2 "rascsi_din:ZERO" H 2300 4400 50  0001 C CNN
-F 3 "" H 2300 4400 50  0001 C CNN
-	1    2300 4400
-	1    0    0    -1  
-$EndComp
-$Comp
-L rascsi_din-eagle-import:GND #GND1
-U 1 1 8DA2BB24
-P 3000 5800
-F 0 "#GND1" H 3000 5800 50  0001 C CNN
-F 1 "GND" H 2900 5700 59  0000 L BNN
-F 2 "" H 3000 5800 50  0001 C CNN
-F 3 "" H 3000 5800 50  0001 C CNN
-	1    3000 5800
-	1    0    0    -1  
-$EndComp
-$Comp
-L rascsi_din-eagle-import:+3V3 #+3V1
-U 1 1 7D977A11
-P 1300 2700
-F 0 "#+3V1" H 1300 2700 50  0001 C CNN
-F 1 "+3V3" V 1200 2500 59  0000 L BNN
-F 2 "" H 1300 2700 50  0001 C CNN
-F 3 "" H 1300 2700 50  0001 C CNN
-	1    1300 2700
-	1    0    0    -1  
-$EndComp
-$Comp
-L rascsi_din-eagle-import:+5V #P+1
-U 1 1 6A081B6E
-P 2100 2700
-F 0 "#P+1" H 2100 2700 50  0001 C CNN
-F 1 "+5V" V 2000 2500 59  0000 L BNN
-F 2 "" H 2100 2700 50  0001 C CNN
-F 3 "" H 2100 2700 50  0001 C CNN
-	1    2100 2700
-	1    0    0    -1  
-$EndComp
-$Comp
-L rascsi_din-eagle-import:SN74LS641-1C U11
+L rascsi_din-eagle-import:SN74LS641-1C U3
 U 1 1 6BED38E3
-P 7500 2600
-F 0 "U11" H 7500 2600 50  0001 C CNN
-F 1 "SN74LS641-1C" H 7500 2600 50  0001 C CNN
-F 2 "rascsi_din:SOIC20S" H 7500 2600 50  0001 C CNN
-F 3 "" H 7500 2600 50  0001 C CNN
-	1    7500 2600
+P 6900 3500
+F 0 "U3" H 6900 3500 50  0000 C CNN
+F 1 "SN74LS641-1C" H 6900 3500 50  0001 C CNN
+F 2 "rascsi_din:SOIC20S" H 6900 3500 50  0001 C CNN
+F 3 "" H 6900 3500 50  0001 C CNN
+	1    6900 3500
 	1    0    0    -1  
 $EndComp
 $Comp
-L rascsi_din-eagle-import:SN74LS641-1C U22
-U 1 1 DBC1E9B6
-P 7500 4200
-F 0 "U22" H 7500 4200 50  0001 C CNN
-F 1 "SN74LS641-1C" H 7500 4200 50  0001 C CNN
-F 2 "rascsi_din:SOIC20S" H 7500 4200 50  0001 C CNN
-F 3 "" H 7500 4200 50  0001 C CNN
-	1    7500 4200
-	1    0    0    -1  
-$EndComp
-$Comp
-L rascsi_din-eagle-import:GND #GND2
-U 1 1 4877C9E2
-P 8300 2300
-F 0 "#GND2" H 8300 2300 50  0001 C CNN
-F 1 "GND" H 8200 2200 59  0000 L BNN
-F 2 "" H 8300 2300 50  0001 C CNN
-F 3 "" H 8300 2300 50  0001 C CNN
-	1    8300 2300
-	0    -1   -1   0   
-$EndComp
-$Comp
-L rascsi_din-eagle-import:GND #GND3
-U 1 1 21137572
-P 8200 3400
-F 0 "#GND3" H 8200 3400 50  0001 C CNN
-F 1 "GND" H 8100 3300 59  0000 L BNN
-F 2 "" H 8200 3400 50  0001 C CNN
-F 3 "" H 8200 3400 50  0001 C CNN
-	1    8200 3400
-	1    0    0    -1  
-$EndComp
-$Comp
-L rascsi_din-eagle-import:GND #GND4
-U 1 1 12C122FD
-P 6800 3400
-F 0 "#GND4" H 6800 3400 50  0001 C CNN
-F 1 "GND" H 6700 3300 59  0000 L BNN
-F 2 "" H 6800 3400 50  0001 C CNN
-F 3 "" H 6800 3400 50  0001 C CNN
-	1    6800 3400
-	1    0    0    -1  
-$EndComp
-$Comp
-L rascsi_din-eagle-import:+5V #P+2
-U 1 1 637B3A6A
-P 8200 2200
-F 0 "#P+2" H 8200 2200 50  0001 C CNN
-F 1 "+5V" V 8100 2000 59  0000 L BNN
-F 2 "" H 8200 2200 50  0001 C CNN
-F 3 "" H 8200 2200 50  0001 C CNN
-	1    8200 2200
-	0    1    1    0   
-$EndComp
-$Comp
-L rascsi_din-eagle-import:GND #GND5
-U 1 1 5B6A58CA
-P 6800 4900
-F 0 "#GND5" H 6800 4900 50  0001 C CNN
-F 1 "GND" H 6700 4800 59  0000 L BNN
-F 2 "" H 6800 4900 50  0001 C CNN
-F 3 "" H 6800 4900 50  0001 C CNN
-	1    6800 4900
-	1    0    0    -1  
-$EndComp
-$Comp
-L rascsi_din-eagle-import:GND #GND6
-U 1 1 F6847280
-P 8300 3900
-F 0 "#GND6" H 8300 3900 50  0001 C CNN
-F 1 "GND" H 8200 3800 59  0000 L BNN
-F 2 "" H 8300 3900 50  0001 C CNN
-F 3 "" H 8300 3900 50  0001 C CNN
-	1    8300 3900
-	0    -1   -1   0   
-$EndComp
-$Comp
-L rascsi_din-eagle-import:+5V #P+3
-U 1 1 48C2C5DB
-P 8200 3800
-F 0 "#P+3" H 8200 3800 50  0001 C CNN
-F 1 "+5V" V 8100 3600 59  0000 L BNN
-F 2 "" H 8200 3800 50  0001 C CNN
-F 3 "" H 8200 3800 50  0001 C CNN
-	1    8200 3800
-	0    1    1    0   
-$EndComp
-$Comp
-L rascsi_din-eagle-import:GND #GND7
-U 1 1 C2693486
-P 8200 4900
-F 0 "#GND7" H 8200 4900 50  0001 C CNN
-F 1 "GND" H 8100 4800 59  0000 L BNN
-F 2 "" H 8200 4900 50  0001 C CNN
-F 3 "" H 8200 4900 50  0001 C CNN
-	1    8200 4900
-	1    0    0    -1  
-$EndComp
-$Comp
-L rascsi_din-eagle-import:GND #GND8
-U 1 1 E3161DBF
-P 6700 3800
-F 0 "#GND8" H 6700 3800 50  0001 C CNN
-F 1 "GND" H 6600 3700 59  0000 L BNN
-F 2 "" H 6700 3800 50  0001 C CNN
-F 3 "" H 6700 3800 50  0001 C CNN
-	1    6700 3800
-	0    1    1    0   
-$EndComp
-$Comp
-L rascsi_din-eagle-import:+5V #P+6
-U 1 1 4B6CF0C8
-P 15800 4400
-F 0 "#P+6" H 15800 4400 50  0001 C CNN
-F 1 "+5V" V 15700 4200 59  0000 L BNN
-F 2 "" H 15800 4400 50  0001 C CNN
-F 3 "" H 15800 4400 50  0001 C CNN
-	1    15800 4400
-	0    1    1    0   
-$EndComp
-$Comp
-L rascsi_din-eagle-import:+3V3 #+3V2
-U 1 1 816AD438
-P 4300 4700
-F 0 "#+3V2" H 4300 4700 50  0001 C CNN
-F 1 "+3V3" V 4200 4500 59  0000 L BNN
-F 2 "" H 4300 4700 50  0001 C CNN
-F 3 "" H 4300 4700 50  0001 C CNN
-	1    4300 4700
-	0    -1   -1   0   
-$EndComp
-$Comp
-L rascsi_din-eagle-import:RN09 RN1
-U 1 1 74B825CD
-P 4800 4700
-F 0 "RN1" H 4700 4800 59  0000 L BNN
-F 1 "10k" H 4700 4530 59  0000 L BNN
-F 2 "rascsi_din:RN-10" H 4800 4700 50  0001 C CNN
-F 3 "" H 4800 4700 50  0001 C CNN
-	1    4800 4700
-	1    0    0    -1  
-$EndComp
-$Comp
-L rascsi_din-eagle-import:RN09 RN5
-U 1 1 B0B113F4
-P 8700 2000
-F 0 "RN5" H 8600 2100 59  0000 L BNN
-F 1 "220" H 8600 1830 59  0000 L BNN
-F 2 "rascsi_din:RN-10" H 8700 2000 50  0001 C CNN
-F 3 "" H 8700 2000 50  0001 C CNN
-	1    8700 2000
-	1    0    0    -1  
-$EndComp
-$Comp
-L rascsi_din-eagle-import:RN09 RN6
-U 1 1 88934038
-P 11100 1800
-F 0 "RN6" H 11000 1900 59  0000 L BNN
-F 1 "330" H 11000 1630 59  0000 L BNN
-F 2 "rascsi_din:RN-10" H 11100 1800 50  0001 C CNN
-F 3 "" H 11100 1800 50  0001 C CNN
-	1    11100 1800
-	1    0    0    -1  
-$EndComp
-$Comp
-L rascsi_din-eagle-import:GND #GND15
-U 1 1 7499CEA7
-P 10700 1800
-F 0 "#GND15" H 10700 1800 50  0001 C CNN
-F 1 "GND" H 10600 1700 59  0000 L BNN
-F 2 "" H 10700 1800 50  0001 C CNN
-F 3 "" H 10700 1800 50  0001 C CNN
-	1    10700 1800
-	0    1    1    0   
-$EndComp
-$Comp
-L rascsi_din-eagle-import:R-US_0204_7 FUSE1A
-U 1 1 7D731F73
-P 14800 4400
-F 0 "FUSE1A" H 14650 4459 59  0000 L BNN
-F 1 "R-US_0204_7" H 14650 4270 59  0000 L BNN
-F 2 "rascsi_din:0204_7" H 14800 4400 50  0001 C CNN
-F 3 "" H 14800 4400 50  0001 C CNN
-	1    14800 4400
-	1    0    0    -1  
-$EndComp
-$Comp
-L rascsi_din-eagle-import:SN74LS641-1C U33
+L rascsi_din-eagle-import:SN74LS641-1C U1
 U 1 1 00AF44B9
-P 7500 7000
-F 0 "U33" H 7500 7000 50  0001 C CNN
-F 1 "SN74LS641-1C" H 7500 7000 50  0001 C CNN
-F 2 "rascsi_din:SOIC20S" H 7500 7000 50  0001 C CNN
-F 3 "" H 7500 7000 50  0001 C CNN
-	1    7500 7000
+P 4700 3500
+F 0 "U1" H 4700 3500 50  0000 C CNN
+F 1 "SN74LS641-1C" H 4700 3500 50  0001 C CNN
+F 2 "rascsi_din:SOIC20S" H 4700 3500 50  0001 C CNN
+F 3 "" H 4700 3500 50  0001 C CNN
+	1    4700 3500
 	-1   0    0    -1  
 $EndComp
 $Comp
-L rascsi_din-eagle-import:SN74LS641-1C U44
+L rascsi_din-eagle-import:SN74LS641-1C U2
 U 1 1 CBCCB400
-P 7500 8800
-F 0 "U44" H 7500 8800 50  0001 C CNN
-F 1 "SN74LS641-1C" H 7500 8800 50  0001 C CNN
-F 2 "rascsi_din:SOIC20S" H 7500 8800 50  0001 C CNN
-F 3 "" H 7500 8800 50  0001 C CNN
-	1    7500 8800
+P 4700 5100
+F 0 "U2" H 4700 5100 50  0000 C CNN
+F 1 "SN74LS641-1C" H 4700 5100 50  0001 C CNN
+F 2 "rascsi_din:SOIC20S" H 4700 5100 50  0001 C CNN
+F 3 "" H 4700 5100 50  0001 C CNN
+	1    4700 5100
 	-1   0    0    -1  
 $EndComp
 $Comp
-L rascsi_din-eagle-import:+5V #P+4
-U 1 1 459FCD94
-P 6800 6400
-F 0 "#P+4" H 6800 6400 50  0001 C CNN
-F 1 "+5V" V 6700 6200 59  0000 L BNN
-F 2 "" H 6800 6400 50  0001 C CNN
-F 3 "" H 6800 6400 50  0001 C CNN
-	1    6800 6400
+L rascsi_din-eagle-import:LOGO U$1
+U 1 1 87B7DF34
+P 10000 6150
+F 0 "U$1" H 10000 6150 50  0001 C CNN
+F 1 "LOGO" H 10000 6150 50  0001 C CNN
+F 2 "rascsi_din:LOGO" H 10000 6150 50  0001 C CNN
+F 3 "" H 10000 6150 50  0001 C CNN
+	1    10000 6150
+	1    0    0    -1  
+$EndComp
+Text Notes 5300 6300 0    59   Italic 0
+Note the original RaSCSI design calls the DIR pin "ATOB"\nEnable Input ("G") is active low, so always grounded.
+$Comp
+L Connector_Generic:Conn_02x25_Odd_Even J3
+U 1 1 5EF63F70
+P 2100 7300
+F 0 "J3" H 2150 5875 50  0000 C CNN
+F 1 "Conn_02x25_Odd_Even" H 2150 5966 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_2x25_P2.54mm_Vertical_SMD" H 2100 7300 50  0001 C CNN
+F 3 "~" H 2100 7300 50  0001 C CNN
+	1    2100 7300
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	900  7600 900  7500
+Wire Wire Line
+	900  7600 1000 7600
+Wire Wire Line
+	1000 7600 1000 7500
+Wire Wire Line
+	1000 7600 1100 7600
+Wire Wire Line
+	1100 7600 1100 7500
+Connection ~ 1000 7600
+Wire Wire Line
+	1100 7600 1200 7600
+Wire Wire Line
+	1200 7600 1200 7500
+Connection ~ 1100 7600
+Wire Wire Line
+	1200 7600 1300 7600
+Wire Wire Line
+	1300 7600 1300 7500
+Connection ~ 1200 7600
+Wire Wire Line
+	1300 7600 1400 7600
+Wire Wire Line
+	1400 7600 1400 7500
+Connection ~ 1300 7600
+Wire Wire Line
+	1400 7600 1500 7600
+Wire Wire Line
+	1500 7600 1500 7500
+Connection ~ 1400 7600
+Wire Wire Line
+	1500 7600 1600 7600
+Wire Wire Line
+	1600 7600 1600 7500
+Connection ~ 1500 7600
+Wire Wire Line
+	1600 7600 1700 7600
+Wire Wire Line
+	1700 7600 1700 7500
+Connection ~ 1600 7600
+Wire Wire Line
+	1700 7600 1800 7600
+Wire Wire Line
+	1800 7600 1800 7500
+Connection ~ 1700 7600
+Wire Wire Line
+	1800 7600 1900 7600
+Wire Wire Line
+	1900 7600 1900 7500
+Connection ~ 1800 7600
+Wire Wire Line
+	1900 7600 2000 7600
+Wire Wire Line
+	2000 7600 2000 7500
+Connection ~ 1900 7600
+Wire Wire Line
+	2000 7600 2200 7600
+Wire Wire Line
+	2200 7600 2200 7500
+Connection ~ 2000 7600
+Wire Wire Line
+	2200 7600 2300 7600
+Wire Wire Line
+	2300 7600 2300 7500
+Connection ~ 2200 7600
+Wire Wire Line
+	2300 7600 2400 7600
+Wire Wire Line
+	2400 7600 2400 7500
+Connection ~ 2300 7600
+Wire Wire Line
+	2400 7600 2500 7600
+Wire Wire Line
+	2500 7600 2500 7500
+Connection ~ 2400 7600
+Wire Wire Line
+	2500 7600 2600 7600
+Wire Wire Line
+	2600 7600 2600 7500
+Connection ~ 2500 7600
+Wire Wire Line
+	2600 7600 2700 7600
+Wire Wire Line
+	2700 7600 2700 7500
+Connection ~ 2600 7600
+Wire Wire Line
+	2700 7600 2800 7600
+Wire Wire Line
+	2800 7600 2800 7500
+Connection ~ 2700 7600
+Wire Wire Line
+	2800 7600 2900 7600
+Wire Wire Line
+	2900 7600 2900 7500
+Connection ~ 2800 7600
+Wire Wire Line
+	2900 7600 3000 7600
+Wire Wire Line
+	3000 7600 3000 7500
+Connection ~ 2900 7600
+Wire Wire Line
+	3000 7600 3100 7600
+Wire Wire Line
+	3100 7600 3100 7500
+Connection ~ 3000 7600
+Wire Wire Line
+	3100 7600 3200 7600
+Wire Wire Line
+	3200 7600 3200 7500
+Connection ~ 3100 7600
+Wire Wire Line
+	3200 7600 3300 7600
+Wire Wire Line
+	3300 7600 3300 7500
+Connection ~ 3200 7600
+Text GLabel 7900 1000 3    50   BiDi ~ 0
+C-D0
+Text GLabel 8000 1000 3    50   BiDi ~ 0
+C-D1
+Text GLabel 8100 1000 3    50   BiDi ~ 0
+C-D2
+Text GLabel 8200 1000 3    50   BiDi ~ 0
+C-D3
+Text GLabel 8300 1000 3    50   BiDi ~ 0
+C-D4
+Text GLabel 8400 1000 3    50   BiDi ~ 0
+C-D5
+Text GLabel 8500 1000 3    50   BiDi ~ 0
+C-D6
+Text GLabel 8600 1000 3    50   BiDi ~ 0
+C-D7
+Text GLabel 900  7000 1    50   BiDi ~ 0
+C-D0
+Text GLabel 1000 7000 1    50   BiDi ~ 0
+C-D1
+Text GLabel 1100 7000 1    50   BiDi ~ 0
+C-D2
+Text GLabel 1200 7000 1    50   BiDi ~ 0
+C-D3
+Text GLabel 1300 7000 1    50   BiDi ~ 0
+C-D4
+Text GLabel 1400 7000 1    50   BiDi ~ 0
+C-D5
+Text GLabel 1500 7000 1    50   BiDi ~ 0
+C-D6
+Text GLabel 1600 7000 1    50   BiDi ~ 0
+C-D7
+Text GLabel 1700 7000 1    50   BiDi ~ 0
+C-DP
+Text GLabel 1800 7000 1    50   BiDi ~ 0
+GND
+Text GLabel 1900 7000 1    50   BiDi ~ 0
+GND
+Text GLabel 2000 7000 1    50   BiDi ~ 0
+GND
+NoConn ~ 2100 7000
+Text GLabel 2200 7000 1    50   BiDi ~ 0
+GND
+Text GLabel 2300 7000 1    50   BiDi ~ 0
+GND
+Text GLabel 2400 7000 1    50   BiDi ~ 0
+C-ATN
+Text GLabel 2600 7000 1    50   BiDi ~ 0
+C-BSY
+Text GLabel 2700 7000 1    50   BiDi ~ 0
+C-ACK
+Text GLabel 2800 7000 1    50   BiDi ~ 0
+C-RST
+Text GLabel 2900 7000 1    50   BiDi ~ 0
+C-MSG
+Text GLabel 3000 7000 1    50   BiDi ~ 0
+C-SEL
+Text GLabel 3100 7000 1    50   BiDi ~ 0
+C-C_D
+Text GLabel 3200 7000 1    50   BiDi ~ 0
+C-REQ
+Text GLabel 3300 7000 1    50   BiDi ~ 0
+C-I_O
+NoConn ~ 2100 7500
+Text GLabel 5300 4800 2    50   BiDi ~ 0
+C-D0
+Text GLabel 5300 4900 2    50   BiDi ~ 0
+C-D1
+Text GLabel 5300 5000 2    50   BiDi ~ 0
+C-D2
+Text GLabel 5300 5100 2    50   BiDi ~ 0
+C-D3
+Text GLabel 5300 5300 2    50   BiDi ~ 0
+C-D5
+Text GLabel 5300 5400 2    50   BiDi ~ 0
+C-D6
+Text GLabel 5300 5500 2    50   BiDi ~ 0
+C-D7
+Text GLabel 5300 5200 2    50   BiDi ~ 0
+C-D4
+$Comp
+L power:GND #PWR017
+U 1 1 5FE4523C
+P 5300 5700
+F 0 "#PWR017" H 5300 5450 50  0001 C CNN
+F 1 "GND" H 5305 5527 50  0000 C CNN
+F 2 "" H 5300 5700 50  0001 C CNN
+F 3 "" H 5300 5700 50  0001 C CNN
+	1    5300 5700
+	1    0    0    -1  
+$EndComp
+Text GLabel 7800 1000 3    50   BiDi ~ 0
+C-DP
+Text GLabel 5300 3200 2    50   BiDi ~ 0
+C-DP
+$Comp
+L Device:R_Network09 RN3
+U 1 1 601E768B
+P 8200 800
+F 0 "RN3" H 8688 846 50  0000 L CNN
+F 1 "220" H 8688 755 50  0000 L CNN
+F 2 "Resistor_THT:R_Array_SIP10" V 8775 800 50  0001 C CNN
+F 3 "http://www.vishay.com/docs/31509/csc.pdf" H 8200 800 50  0001 C CNN
+	1    8200 800 
+	1    0    0    -1  
+$EndComp
+Text GLabel 7900 1750 3    50   BiDi ~ 0
+C-D0
+Text GLabel 8000 1750 3    50   BiDi ~ 0
+C-D1
+Text GLabel 8100 1750 3    50   BiDi ~ 0
+C-D2
+Text GLabel 8200 1750 3    50   BiDi ~ 0
+C-D3
+Text GLabel 8300 1750 3    50   BiDi ~ 0
+C-D4
+Text GLabel 8400 1750 3    50   BiDi ~ 0
+C-D5
+Text GLabel 8500 1750 3    50   BiDi ~ 0
+C-D6
+Text GLabel 8600 1750 3    50   BiDi ~ 0
+C-D7
+Text GLabel 7800 1750 3    50   BiDi ~ 0
+C-DP
+$Comp
+L Device:R_Network09 RN4
+U 1 1 602DB806
+P 8200 1550
+F 0 "RN4" H 8688 1596 50  0000 L CNN
+F 1 "330" H 8688 1505 50  0000 L CNN
+F 2 "Resistor_THT:R_Array_SIP10" V 8775 1550 50  0001 C CNN
+F 3 "http://www.vishay.com/docs/31509/csc.pdf" H 8200 1550 50  0001 C CNN
+	1    8200 1550
+	1    0    0    -1  
+$EndComp
+Text GLabel 9750 1250 2    50   BiDi ~ 0
+TERMPOW
+Text GLabel 7400 4900 2    50   BiDi ~ 0
+C-ATN
+Text GLabel 7400 3300 2    50   BiDi ~ 0
+C-BSY
+Text GLabel 7400 5000 2    50   BiDi ~ 0
+C-ACK
+Text GLabel 7400 5100 2    50   BiDi ~ 0
+C-RST
+Text GLabel 7400 3400 2    50   BiDi ~ 0
+C-MSG
+Text GLabel 7400 5200 2    50   BiDi ~ 0
+C-SEL
+Text GLabel 7400 3500 2    50   BiDi ~ 0
+C-C_D
+Text GLabel 7400 3700 2    50   BiDi ~ 0
+C-I_O
+$Comp
+L rascsi_din-eagle-import:SN74LS641-1C U4
+U 1 1 DBC1E9B6
+P 6900 5100
+F 0 "U4" H 6900 5100 50  0000 C CNN
+F 1 "SN74LS641-1C" H 6900 5100 50  0001 C CNN
+F 2 "rascsi_din:SOIC20S" H 6900 5100 50  0001 C CNN
+F 3 "" H 6900 5100 50  0001 C CNN
+	1    6900 5100
 	1    0    0    -1  
 $EndComp
 $Comp
-L rascsi_din-eagle-import:+5V #P+5
-U 1 1 57F4DC09
-P 6800 8200
-F 0 "#P+5" H 6800 8200 50  0001 C CNN
-F 1 "+5V" V 6700 8000 59  0000 L BNN
-F 2 "" H 6800 8200 50  0001 C CNN
-F 3 "" H 6800 8200 50  0001 C CNN
-	1    6800 8200
+L power:GND #PWR011
+U 1 1 6061B8BB
+P 6200 5700
+F 0 "#PWR011" H 6200 5450 50  0001 C CNN
+F 1 "GND" H 6205 5527 50  0000 C CNN
+F 2 "" H 6200 5700 50  0001 C CNN
+F 3 "" H 6200 5700 50  0001 C CNN
+	1    6200 5700
 	1    0    0    -1  
 $EndComp
 $Comp
-L rascsi_din-eagle-import:GND #GND9
-U 1 1 FD0A31A1
-P 6800 6700
-F 0 "#GND9" H 6800 6700 50  0001 C CNN
-F 1 "GND" H 6700 6600 59  0000 L BNN
-F 2 "" H 6800 6700 50  0001 C CNN
-F 3 "" H 6800 6700 50  0001 C CNN
-	1    6800 6700
+L power:GND #PWR024
+U 1 1 6061C257
+P 7600 5700
+F 0 "#PWR024" H 7600 5450 50  0001 C CNN
+F 1 "GND" H 7605 5527 50  0000 C CNN
+F 2 "" H 7600 5700 50  0001 C CNN
+F 3 "" H 7600 5700 50  0001 C CNN
+	1    7600 5700
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR018
+U 1 1 60637F3A
+P 7400 4800
+F 0 "#PWR018" H 7400 4550 50  0001 C CNN
+F 1 "GND" V 7405 4672 50  0000 R CNN
+F 2 "" H 7400 4800 50  0001 C CNN
+F 3 "" H 7400 4800 50  0001 C CNN
+	1    7400 4800
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:GND #PWR014
+U 1 1 60652362
+P 6250 4700
+F 0 "#PWR014" H 6250 4450 50  0001 C CNN
+F 1 "GND" V 6255 4572 50  0000 R CNN
+F 2 "" H 6250 4700 50  0001 C CNN
+F 3 "" H 6250 4700 50  0001 C CNN
+	1    6250 4700
 	0    1    1    0   
 $EndComp
 $Comp
-L rascsi_din-eagle-import:GND #GND10
-U 1 1 0087CD10
-P 6800 8500
-F 0 "#GND10" H 6800 8500 50  0001 C CNN
-F 1 "GND" H 6700 8400 59  0000 L BNN
-F 2 "" H 6800 8500 50  0001 C CNN
-F 3 "" H 6800 8500 50  0001 C CNN
-	1    6800 8500
+L power:+5V #PWR021
+U 1 1 6066BBDB
+P 7450 4700
+F 0 "#PWR021" H 7450 4550 50  0001 C CNN
+F 1 "+5V" V 7465 4828 50  0000 L CNN
+F 2 "" H 7450 4700 50  0001 C CNN
+F 3 "" H 7450 4700 50  0001 C CNN
+	1    7450 4700
 	0    1    1    0   
 $EndComp
 $Comp
-L rascsi_din-eagle-import:GND #GND11
-U 1 1 5518330F
-P 6800 7800
-F 0 "#GND11" H 6800 7800 50  0001 C CNN
-F 1 "GND" H 6700 7700 59  0000 L BNN
-F 2 "" H 6800 7800 50  0001 C CNN
-F 3 "" H 6800 7800 50  0001 C CNN
-	1    6800 7800
+L power:GND #PWR023
+U 1 1 606CA3E9
+P 7600 4200
+F 0 "#PWR023" H 7600 3950 50  0001 C CNN
+F 1 "GND" H 7605 4027 50  0000 C CNN
+F 2 "" H 7600 4200 50  0001 C CNN
+F 3 "" H 7600 4200 50  0001 C CNN
+	1    7600 4200
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR010
+U 1 1 606CA773
+P 6200 4200
+F 0 "#PWR010" H 6200 3950 50  0001 C CNN
+F 1 "GND" H 6205 4027 50  0000 C CNN
+F 2 "" H 6200 4200 50  0001 C CNN
+F 3 "" H 6200 4200 50  0001 C CNN
+	1    6200 4200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6200 3900 6200 4000
+Wire Wire Line
+	6300 4000 6200 4000
+Connection ~ 6200 4000
+Wire Wire Line
+	6200 4000 6200 4200
+$Comp
+L power:+5V #PWR019
+U 1 1 60712238
+P 7450 3100
+F 0 "#PWR019" H 7450 2950 50  0001 C CNN
+F 1 "+5V" V 7465 3228 50  0000 L CNN
+F 2 "" H 7450 3100 50  0001 C CNN
+F 3 "" H 7450 3100 50  0001 C CNN
+	1    7450 3100
 	0    1    1    0   
 $EndComp
 $Comp
-L rascsi_din-eagle-import:RN09 RN2
-U 1 1 4D51113B
-P 4600 8300
-F 0 "RN2" H 4500 8400 59  0000 L BNN
-F 1 "10k" H 4500 8130 59  0000 L BNN
-F 2 "rascsi_din:RN-10" H 4600 8300 50  0001 C CNN
-F 3 "" H 4600 8300 50  0001 C CNN
-	1    4600 8300
+L power:GND #PWR020
+U 1 1 607125C6
+P 7450 3200
+F 0 "#PWR020" H 7450 2950 50  0001 C CNN
+F 1 "GND" V 7455 3072 50  0000 R CNN
+F 2 "" H 7450 3200 50  0001 C CNN
+F 3 "" H 7450 3200 50  0001 C CNN
+	1    7450 3200
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:+5V #PWR028
+U 1 1 6072B611
+P 6150 750
+F 0 "#PWR028" H 6150 600 50  0001 C CNN
+F 1 "+5V" H 6250 800 50  0000 C CNN
+F 2 "" H 6150 750 50  0001 C CNN
+F 3 "" H 6150 750 50  0001 C CNN
+	1    6150 750 
 	1    0    0    -1  
 $EndComp
 $Comp
-L rascsi_din-eagle-import:RN09 RN3
-U 1 1 D6A8CC4B
-P 9200 7300
-F 0 "RN3" H 9100 7400 59  0000 L BNN
-F 1 "220" H 9100 7130 59  0000 L BNN
-F 2 "rascsi_din:RN-10" H 9200 7300 50  0001 C CNN
-F 3 "" H 9200 7300 50  0001 C CNN
-	1    9200 7300
+L Device:R_Network09 RN5
+U 1 1 6072B618
+P 7100 800
+F 0 "RN5" H 7588 846 50  0000 L CNN
+F 1 "220" H 7588 755 50  0000 L CNN
+F 2 "Resistor_THT:R_Array_SIP10" V 7675 800 50  0001 C CNN
+F 3 "http://www.vishay.com/docs/31509/csc.pdf" H 7100 800 50  0001 C CNN
+	1    7100 800 
 	1    0    0    -1  
 $EndComp
 $Comp
-L rascsi_din-eagle-import:RN09 RN4
-U 1 1 3734CD64
-P 11400 7700
-F 0 "RN4" H 11300 7800 59  0000 L BNN
-F 1 "330" H 11300 7530 59  0000 L BNN
-F 2 "rascsi_din:RN-10" H 11400 7700 50  0001 C CNN
-F 3 "" H 11400 7700 50  0001 C CNN
-	1    11400 7700
+L Device:R_Network09 RN6
+U 1 1 6072B627
+P 7100 1550
+F 0 "RN6" H 7588 1596 50  0000 L CNN
+F 1 "330" H 7588 1505 50  0000 L CNN
+F 2 "Resistor_THT:R_Array_SIP10" V 7675 1550 50  0001 C CNN
+F 3 "http://www.vishay.com/docs/31509/csc.pdf" H 7100 1550 50  0001 C CNN
+	1    7100 1550
 	1    0    0    -1  
 $EndComp
 $Comp
-L rascsi_din-eagle-import:+3V3 #+3V3
-U 1 1 EB5F8C4A
-P 4200 8200
-F 0 "#+3V3" H 4200 8200 50  0001 C CNN
-F 1 "+3V3" V 4100 8000 59  0000 L BNN
-F 2 "" H 4200 8200 50  0001 C CNN
-F 3 "" H 4200 8200 50  0001 C CNN
-	1    4200 8200
-	1    0    0    -1  
-$EndComp
-$Comp
-L rascsi_din-eagle-import:GND #GND13
-U 1 1 85B66688
-P 11100 7600
-F 0 "#GND13" H 11100 7600 50  0001 C CNN
-F 1 "GND" H 11000 7500 59  0000 L BNN
-F 2 "" H 11100 7600 50  0001 C CNN
-F 3 "" H 11100 7600 50  0001 C CNN
-	1    11100 7600
+L power:GND #PWR026
+U 1 1 6072B62D
+P 6050 750
+F 0 "#PWR026" H 6050 500 50  0001 C CNN
+F 1 "GND" H 6200 700 50  0000 C CNN
+F 2 "" H 6050 750 50  0001 C CNN
+F 3 "" H 6050 750 50  0001 C CNN
+	1    6050 750 
 	-1   0    0    1   
 $EndComp
+Text GLabel 7400 3600 2    50   BiDi ~ 0
+C-REQ
+Text GLabel 7100 1000 3    50   BiDi ~ 0
+C-BSY
+Text GLabel 7000 1000 3    50   BiDi ~ 0
+C-MSG
+Text GLabel 6900 1000 3    50   BiDi ~ 0
+C-C_D
+Text GLabel 6700 1000 3    50   BiDi ~ 0
+C-I_O
+Text GLabel 6800 1000 3    50   BiDi ~ 0
+C-REQ
+Text GLabel 7100 1750 3    50   BiDi ~ 0
+C-BSY
+Text GLabel 7000 1750 3    50   BiDi ~ 0
+C-MSG
+Text GLabel 6900 1750 3    50   BiDi ~ 0
+C-C_D
+Text GLabel 6700 1750 3    50   BiDi ~ 0
+C-I_O
+Text GLabel 6800 1750 3    50   BiDi ~ 0
+C-REQ
+Text GLabel 7500 1000 3    50   BiDi ~ 0
+C-ATN
+Text GLabel 7400 1000 3    50   BiDi ~ 0
+C-ACK
+Text GLabel 7300 1000 3    50   BiDi ~ 0
+C-RST
+Text GLabel 7200 1000 3    50   BiDi ~ 0
+C-SEL
+Text GLabel 7500 1750 3    50   BiDi ~ 0
+C-ATN
+Text GLabel 7400 1750 3    50   BiDi ~ 0
+C-ACK
+Text GLabel 7300 1750 3    50   BiDi ~ 0
+C-RST
+Text GLabel 7200 1750 3    50   BiDi ~ 0
+C-SEL
 $Comp
-L rascsi_din-eagle-import:GND #GND14
-U 1 1 B9C9B342
-P 8300 9400
-F 0 "#GND14" H 8300 9400 50  0001 C CNN
-F 1 "GND" H 8200 9300 59  0000 L BNN
-F 2 "" H 8300 9400 50  0001 C CNN
-F 3 "" H 8300 9400 50  0001 C CNN
-	1    8300 9400
+L power:+5V #PWR029
+U 1 1 60874435
+P 9200 800
+F 0 "#PWR029" H 9200 650 50  0001 C CNN
+F 1 "+5V" H 9215 973 50  0000 C CNN
+F 2 "" H 9200 800 50  0001 C CNN
+F 3 "" H 9200 800 50  0001 C CNN
+	1    9200 800 
 	1    0    0    -1  
-$EndComp
-$Comp
-L rascsi_din-eagle-import:+5V #P+7
-U 1 1 FAFE20BD
-P 8700 7300
-F 0 "#P+7" H 8700 7300 50  0001 C CNN
-F 1 "+5V" V 8600 7100 59  0000 L BNN
-F 2 "" H 8700 7300 50  0001 C CNN
-F 3 "" H 8700 7300 50  0001 C CNN
-	1    8700 7300
-	0    -1   -1   0   
-$EndComp
-$Comp
-L rascsi_din-eagle-import:+5V #P+8
-U 1 1 E32DC4A8
-P 8300 2000
-F 0 "#P+8" H 8300 2000 50  0001 C CNN
-F 1 "+5V" V 8200 1800 59  0000 L BNN
-F 2 "" H 8300 2000 50  0001 C CNN
-F 3 "" H 8300 2000 50  0001 C CNN
-	1    8300 2000
-	0    -1   -1   0   
-$EndComp
-$Comp
-L rascsi_din-eagle-import:LOGO U$2
-U 1 1 87B7DF34
-P 1100 7500
-F 0 "U$2" H 1100 7500 50  0001 C CNN
-F 1 "LOGO" H 1100 7500 50  0001 C CNN
-F 2 "rascsi_din:LOGO" H 1100 7500 50  0001 C CNN
-F 3 "" H 1100 7500 50  0001 C CNN
-	1    1100 7500
-	1    0    0    -1  
-$EndComp
-$Comp
-L rascsi_din-eagle-import:GND #GND16
-U 1 1 12C6E2A1
-P 5100 1000
-F 0 "#GND16" H 5100 1000 50  0001 C CNN
-F 1 "GND" H 5000 900 59  0000 L BNN
-F 2 "" H 5100 1000 50  0001 C CNN
-F 3 "" H 5100 1000 50  0001 C CNN
-	1    5100 1000
-	0    1    1    0   
-$EndComp
-$Comp
-L rascsi_din-eagle-import:PINHD-1X2 JP1
-U 1 1 0B60073D
-P 5700 1000
-F 0 "JP1" H 5450 1225 59  0000 L BNN
-F 1 "PINHD-1X2" H 5450 800 59  0000 L BNN
-F 2 "rascsi_din:1X02" H 5700 1000 50  0001 C CNN
-F 3 "" H 5700 1000 50  0001 C CNN
-	1    5700 1000
-	1    0    0    -1  
-$EndComp
-$Comp
-L rascsi_din-eagle-import:F25?SHP X1
-U 1 1 8679BB61
-P 11300 3300
-F 0 "X1" H 11350 3270 59  0000 L BNN
-F 1 "F25?SHP" H 11200 3355 59  0001 L BNN
-F 2 "rascsi_din:F25HP" H 11300 3300 50  0001 C CNN
-F 3 "" H 11300 3300 50  0001 C CNN
-	1    11300 3300
-	-1   0    0    -1  
-$EndComp
-$Comp
-L rascsi_din-eagle-import:F25?SHP X1
-U 2 1 8679BB6D
-P 11300 3400
-F 0 "X1" H 11350 3370 59  0000 L BNN
-F 1 "F25?SHP" H 11200 3455 59  0001 L BNN
-F 2 "rascsi_din:F25HP" H 11300 3400 50  0001 C CNN
-F 3 "" H 11300 3400 50  0001 C CNN
-	2    11300 3400
-	-1   0    0    -1  
-$EndComp
-$Comp
-L rascsi_din-eagle-import:F25?SHP X1
-U 3 1 8679BB69
-P 11300 3500
-F 0 "X1" H 11350 3470 59  0000 L BNN
-F 1 "F25?SHP" H 11200 3555 59  0001 L BNN
-F 2 "rascsi_din:F25HP" H 11300 3500 50  0001 C CNN
-F 3 "" H 11300 3500 50  0001 C CNN
-	3    11300 3500
-	-1   0    0    -1  
-$EndComp
-$Comp
-L rascsi_din-eagle-import:F25?SHP X1
-U 4 1 8679BB75
-P 11300 3600
-F 0 "X1" H 11350 3570 59  0000 L BNN
-F 1 "F25?SHP" H 11200 3655 59  0001 L BNN
-F 2 "rascsi_din:F25HP" H 11300 3600 50  0001 C CNN
-F 3 "" H 11300 3600 50  0001 C CNN
-	4    11300 3600
-	-1   0    0    -1  
-$EndComp
-$Comp
-L rascsi_din-eagle-import:F25?SHP X1
-U 5 1 8679BB71
-P 11300 3700
-F 0 "X1" H 11350 3670 59  0000 L BNN
-F 1 "F25?SHP" H 11200 3755 59  0001 L BNN
-F 2 "rascsi_din:F25HP" H 11300 3700 50  0001 C CNN
-F 3 "" H 11300 3700 50  0001 C CNN
-	5    11300 3700
-	-1   0    0    -1  
-$EndComp
-$Comp
-L rascsi_din-eagle-import:F25?SHP X1
-U 6 1 8679BB7D
-P 11300 3800
-F 0 "X1" H 11350 3770 59  0000 L BNN
-F 1 "F25?SHP" H 11200 3855 59  0001 L BNN
-F 2 "rascsi_din:F25HP" H 11300 3800 50  0001 C CNN
-F 3 "" H 11300 3800 50  0001 C CNN
-	6    11300 3800
-	-1   0    0    -1  
-$EndComp
-$Comp
-L rascsi_din-eagle-import:F25?SHP X1
-U 7 1 8679BB79
-P 11300 3900
-F 0 "X1" H 11350 3870 59  0000 L BNN
-F 1 "F25?SHP" H 11200 3955 59  0001 L BNN
-F 2 "rascsi_din:F25HP" H 11300 3900 50  0001 C CNN
-F 3 "" H 11300 3900 50  0001 C CNN
-	7    11300 3900
-	-1   0    0    -1  
-$EndComp
-$Comp
-L rascsi_din-eagle-import:F25?SHP X1
-U 8 1 8679BB45
-P 11300 4000
-F 0 "X1" H 11350 3970 59  0000 L BNN
-F 1 "F25?SHP" H 11200 4055 59  0001 L BNN
-F 2 "rascsi_din:F25HP" H 11300 4000 50  0001 C CNN
-F 3 "" H 11300 4000 50  0001 C CNN
-	8    11300 4000
-	-1   0    0    -1  
-$EndComp
-$Comp
-L rascsi_din-eagle-import:F25?SHP X1
-U 9 1 8679BB41
-P 11300 4100
-F 0 "X1" H 11350 4070 59  0000 L BNN
-F 1 "F25?SHP" H 11200 4155 59  0001 L BNN
-F 2 "rascsi_din:F25HP" H 11300 4100 50  0001 C CNN
-F 3 "" H 11300 4100 50  0001 C CNN
-	9    11300 4100
-	-1   0    0    -1  
-$EndComp
-$Comp
-L rascsi_din-eagle-import:F25?SHP X1
-U 10 1 8679BB4D
-P 11300 4200
-F 0 "X1" H 11350 4170 59  0000 L BNN
-F 1 "F25?SHP" H 11200 4255 59  0001 L BNN
-F 2 "rascsi_din:F25HP" H 11300 4200 50  0001 C CNN
-F 3 "" H 11300 4200 50  0001 C CNN
-	10   11300 4200
-	-1   0    0    -1  
-$EndComp
-$Comp
-L rascsi_din-eagle-import:F25?SHP X1
-U 11 1 8679BB49
-P 11300 4300
-F 0 "X1" H 11350 4270 59  0000 L BNN
-F 1 "F25?SHP" H 11200 4355 59  0001 L BNN
-F 2 "rascsi_din:F25HP" H 11300 4300 50  0001 C CNN
-F 3 "" H 11300 4300 50  0001 C CNN
-	11   11300 4300
-	-1   0    0    -1  
-$EndComp
-$Comp
-L rascsi_din-eagle-import:F25?SHP X1
-U 12 1 8679BB55
-P 11300 4400
-F 0 "X1" H 11350 4370 59  0000 L BNN
-F 1 "F25?SHP" H 11200 4455 59  0001 L BNN
-F 2 "rascsi_din:F25HP" H 11300 4400 50  0001 C CNN
-F 3 "" H 11300 4400 50  0001 C CNN
-	12   11300 4400
-	-1   0    0    -1  
-$EndComp
-$Comp
-L rascsi_din-eagle-import:F25?SHP X1
-U 13 1 8679BB51
-P 11300 4500
-F 0 "X1" H 11350 4470 59  0000 L BNN
-F 1 "F25?SHP" H 11200 4555 59  0001 L BNN
-F 2 "rascsi_din:F25HP" H 11300 4500 50  0001 C CNN
-F 3 "" H 11300 4500 50  0001 C CNN
-	13   11300 4500
-	-1   0    0    -1  
-$EndComp
-$Comp
-L rascsi_din-eagle-import:F25?SHP X1
-U 14 1 8679BB5D
-P 11300 4600
-F 0 "X1" H 11350 4570 59  0000 L BNN
-F 1 "F25?SHP" H 11200 4655 59  0001 L BNN
-F 2 "rascsi_din:F25HP" H 11300 4600 50  0001 C CNN
-F 3 "" H 11300 4600 50  0001 C CNN
-	14   11300 4600
-	-1   0    0    -1  
-$EndComp
-$Comp
-L rascsi_din-eagle-import:F25?SHP X1
-U 15 1 8679BB59
-P 11300 4700
-F 0 "X1" H 11350 4670 59  0000 L BNN
-F 1 "F25?SHP" H 11200 4755 59  0001 L BNN
-F 2 "rascsi_din:F25HP" H 11300 4700 50  0001 C CNN
-F 3 "" H 11300 4700 50  0001 C CNN
-	15   11300 4700
-	-1   0    0    -1  
-$EndComp
-$Comp
-L rascsi_din-eagle-import:F25?SHP X1
-U 16 1 8679BB25
-P 11300 4800
-F 0 "X1" H 11350 4770 59  0000 L BNN
-F 1 "F25?SHP" H 11200 4855 59  0001 L BNN
-F 2 "rascsi_din:F25HP" H 11300 4800 50  0001 C CNN
-F 3 "" H 11300 4800 50  0001 C CNN
-	16   11300 4800
-	-1   0    0    -1  
-$EndComp
-$Comp
-L rascsi_din-eagle-import:F25?SHP X1
-U 17 1 8679BB21
-P 11300 4900
-F 0 "X1" H 11350 4870 59  0000 L BNN
-F 1 "F25?SHP" H 11200 4955 59  0001 L BNN
-F 2 "rascsi_din:F25HP" H 11300 4900 50  0001 C CNN
-F 3 "" H 11300 4900 50  0001 C CNN
-	17   11300 4900
-	-1   0    0    -1  
-$EndComp
-$Comp
-L rascsi_din-eagle-import:F25?SHP X1
-U 18 1 8679BB2D
-P 11300 5000
-F 0 "X1" H 11350 4970 59  0000 L BNN
-F 1 "F25?SHP" H 11200 5055 59  0001 L BNN
-F 2 "rascsi_din:F25HP" H 11300 5000 50  0001 C CNN
-F 3 "" H 11300 5000 50  0001 C CNN
-	18   11300 5000
-	-1   0    0    -1  
-$EndComp
-$Comp
-L rascsi_din-eagle-import:F25?SHP X1
-U 19 1 8679BB29
-P 11300 5100
-F 0 "X1" H 11350 5070 59  0000 L BNN
-F 1 "F25?SHP" H 11200 5155 59  0001 L BNN
-F 2 "rascsi_din:F25HP" H 11300 5100 50  0001 C CNN
-F 3 "" H 11300 5100 50  0001 C CNN
-	19   11300 5100
-	-1   0    0    -1  
-$EndComp
-$Comp
-L rascsi_din-eagle-import:F25?SHP X1
-U 20 1 8679BB35
-P 11300 5200
-F 0 "X1" H 11350 5170 59  0000 L BNN
-F 1 "F25?SHP" H 11200 5255 59  0001 L BNN
-F 2 "rascsi_din:F25HP" H 11300 5200 50  0001 C CNN
-F 3 "" H 11300 5200 50  0001 C CNN
-	20   11300 5200
-	-1   0    0    -1  
-$EndComp
-$Comp
-L rascsi_din-eagle-import:F25?SHP X1
-U 21 1 8679BB31
-P 11300 5300
-F 0 "X1" H 11350 5270 59  0000 L BNN
-F 1 "F25?SHP" H 11200 5355 59  0001 L BNN
-F 2 "rascsi_din:F25HP" H 11300 5300 50  0001 C CNN
-F 3 "" H 11300 5300 50  0001 C CNN
-	21   11300 5300
-	-1   0    0    -1  
-$EndComp
-$Comp
-L rascsi_din-eagle-import:F25?SHP X1
-U 22 1 8679BB3D
-P 11300 5400
-F 0 "X1" H 11350 5370 59  0000 L BNN
-F 1 "F25?SHP" H 11200 5455 59  0001 L BNN
-F 2 "rascsi_din:F25HP" H 11300 5400 50  0001 C CNN
-F 3 "" H 11300 5400 50  0001 C CNN
-	22   11300 5400
-	-1   0    0    -1  
-$EndComp
-$Comp
-L rascsi_din-eagle-import:F25?SHP X1
-U 23 1 8679BB39
-P 11300 5500
-F 0 "X1" H 11350 5470 59  0000 L BNN
-F 1 "F25?SHP" H 11200 5555 59  0001 L BNN
-F 2 "rascsi_din:F25HP" H 11300 5500 50  0001 C CNN
-F 3 "" H 11300 5500 50  0001 C CNN
-	23   11300 5500
-	-1   0    0    -1  
-$EndComp
-$Comp
-L rascsi_din-eagle-import:F25?SHP X1
-U 24 1 8679BB05
-P 11300 5600
-F 0 "X1" H 11350 5570 59  0000 L BNN
-F 1 "F25?SHP" H 11200 5655 59  0001 L BNN
-F 2 "rascsi_din:F25HP" H 11300 5600 50  0001 C CNN
-F 3 "" H 11300 5600 50  0001 C CNN
-	24   11300 5600
-	-1   0    0    -1  
-$EndComp
-$Comp
-L rascsi_din-eagle-import:F25?SHP X1
-U 25 1 8679BB01
-P 11300 5700
-F 0 "X1" H 11350 5670 59  0000 L BNN
-F 1 "F25?SHP" H 11200 5755 59  0001 L BNN
-F 2 "rascsi_din:F25HP" H 11300 5700 50  0001 C CNN
-F 3 "" H 11300 5700 50  0001 C CNN
-	25   11300 5700
-	-1   0    0    -1  
 $EndComp
 $Comp
 L rascsi_din-eagle-import:1N4004 D1
-U 1 1 C78C3FBD
-P 15300 4400
-F 0 "D1" H 15400 4419 59  0000 L BNN
-F 1 "1N4004" H 15400 4309 59  0000 L BNN
-F 2 "rascsi_din:DO41-10" H 15300 4400 50  0001 C CNN
-F 3 "" H 15300 4400 50  0001 C CNN
-	1    15300 4400
+U 1 1 60874AD6
+P 9500 850
+F 0 "D1" H 9450 950 59  0000 L BNN
+F 1 "1N4004" H 9300 700 59  0000 L BNN
+F 2 "rascsi_din:DO41-10" H 9500 850 50  0001 C CNN
+F 3 "" H 9500 850 50  0001 C CNN
+	1    9500 850 
+	1    0    0    -1  
+$EndComp
+$Comp
+L rascsi_din-eagle-import:R-US_0204_7 FUSE1A1
+U 1 1 60874FC5
+P 9450 1250
+F 0 "FUSE1A1" H 9250 1350 59  0000 L BNN
+F 1 "R-US_0204_7" H 9100 1100 59  0000 L BNN
+F 2 "rascsi_din:0204_7" H 9450 1250 50  0001 C CNN
+F 3 "" H 9450 1250 50  0001 C CNN
+	1    9450 1250
 	-1   0    0    1   
 $EndComp
-Text Notes 1900 1700 0    59   ~ 0
-Note the original has ATOB for DIR for some reason...\nAnd G is active low, but this is taken care of in the design
-Text Notes 13500 2400 0    59   ~ 0
-Goes 1 2
-Text Notes 13500 2500 0    59   ~ 0
-        3 4 etc
+Wire Wire Line
+	9200 800  9200 850 
+Wire Wire Line
+	9200 850  9400 850 
+Wire Wire Line
+	9600 850  9900 850 
+Wire Wire Line
+	9650 1250 9750 1250
+Text GLabel 4450 1450 3    50   BiDi ~ 0
+PI-D0
+Text GLabel 4550 1450 3    50   BiDi ~ 0
+PI-D1
+Text GLabel 4650 1450 3    50   BiDi ~ 0
+PI-D2
+Text GLabel 4750 1450 3    50   BiDi ~ 0
+PI-D3
+Text GLabel 4950 1450 3    50   BiDi ~ 0
+PI-D5
+Text GLabel 5050 1450 3    50   BiDi ~ 0
+PI-D6
+Text GLabel 5150 1450 3    50   BiDi ~ 0
+PI-D7
+Text GLabel 4850 1450 3    50   BiDi ~ 0
+PI-D4
+$Comp
+L power:GND #PWR09
+U 1 1 609186C3
+P 4100 4200
+F 0 "#PWR09" H 4100 3950 50  0001 C CNN
+F 1 "GND" H 4105 4027 50  0000 C CNN
+F 2 "" H 4100 4200 50  0001 C CNN
+F 3 "" H 4100 4200 50  0001 C CNN
+	1    4100 4200
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR022
+U 1 1 6091898F
+P 5400 4200
+F 0 "#PWR022" H 5400 3950 50  0001 C CNN
+F 1 "GND" H 5405 4027 50  0000 C CNN
+F 2 "" H 5400 4200 50  0001 C CNN
+F 3 "" H 5400 4200 50  0001 C CNN
+	1    5400 4200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5400 4200 5400 4000
+Connection ~ 5400 4000
+Text GLabel 6300 3200 0    50   BiDi ~ 0
+PI-BSY
+Text GLabel 6300 3300 0    50   BiDi ~ 0
+PI-MSG
+Text GLabel 6300 3400 0    50   BiDi ~ 0
+PI-C_D
+Text GLabel 6300 3600 0    50   BiDi ~ 0
+PI-I_O
+Text GLabel 6300 3500 0    50   BiDi ~ 0
+PI-REQ
+Text GLabel 6300 4800 0    50   BiDi ~ 0
+PI-ATN
+Text GLabel 6300 3100 0    50   BiDi ~ 0
+PI-ACK
+Text GLabel 6300 5000 0    50   BiDi ~ 0
+PI-RST
+Text GLabel 6300 5100 0    50   BiDi ~ 0
+PI-SEL
+Text GLabel 6300 4900 0    50   BiDi ~ 0
+PI-ACK
+$Comp
+L Device:R_Network09 RN2
+U 1 1 6098010F
+P 3600 1250
+F 0 "RN2" H 4088 1296 50  0000 L CNN
+F 1 "10k" H 4088 1205 50  0000 L CNN
+F 2 "Resistor_THT:R_Array_SIP10" V 4175 1250 50  0001 C CNN
+F 3 "http://www.vishay.com/docs/31509/csc.pdf" H 3600 1250 50  0001 C CNN
+	1    3600 1250
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3V3 #PWR07
+U 1 1 60998C3F
+P 3200 1050
+F 0 "#PWR07" H 3200 900 50  0001 C CNN
+F 1 "+3V3" H 3215 1223 50  0000 C CNN
+F 2 "" H 3200 1050 50  0001 C CNN
+F 3 "" H 3200 1050 50  0001 C CNN
+	1    3200 1050
+	1    0    0    -1  
+$EndComp
+Text GLabel 3600 1450 3    50   BiDi ~ 0
+PI-BSY
+Text GLabel 3500 1450 3    50   BiDi ~ 0
+PI-MSG
+Text GLabel 3400 1450 3    50   BiDi ~ 0
+PI-C_D
+Text GLabel 3200 1450 3    50   BiDi ~ 0
+PI-I_O
+Text GLabel 3300 1450 3    50   BiDi ~ 0
+PI-REQ
+Text GLabel 3800 1450 3    50   BiDi ~ 0
+PI-RST
+Text GLabel 3700 1450 3    50   BiDi ~ 0
+PI-SEL
+$Comp
+L Device:R_Network09 RN1
+U 1 1 609BF103
+P 4750 1250
+F 0 "RN1" H 5238 1296 50  0000 L CNN
+F 1 "10k" H 5238 1205 50  0000 L CNN
+F 2 "Resistor_THT:R_Array_SIP10" V 5325 1250 50  0001 C CNN
+F 3 "http://www.vishay.com/docs/31509/csc.pdf" H 4750 1250 50  0001 C CNN
+	1    4750 1250
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3V3 #PWR06
+U 1 1 609BF109
+P 4350 1050
+F 0 "#PWR06" H 4350 900 50  0001 C CNN
+F 1 "+3V3" H 4365 1223 50  0000 C CNN
+F 2 "" H 4350 1050 50  0001 C CNN
+F 3 "" H 4350 1050 50  0001 C CNN
+	1    4350 1050
+	1    0    0    -1  
+$EndComp
+Text GLabel 4350 1450 3    50   BiDi ~ 0
+PI-DP
+Text GLabel 750  1000 1    50   BiDi ~ 0
+ACT
+$Comp
+L power:GND #PWR08
+U 1 1 60ADC4D2
+P 1450 1750
+F 0 "#PWR08" H 1450 1500 50  0001 C CNN
+F 1 "GND" V 1455 1622 50  0000 R CNN
+F 2 "" H 1450 1750 50  0001 C CNN
+F 3 "" H 1450 1750 50  0001 C CNN
+	1    1450 1750
+	1    0    0    -1  
+$EndComp
+Text GLabel 4200 4900 0    50   BiDi ~ 0
+PI-D0
+Text GLabel 4200 5000 0    50   BiDi ~ 0
+PI-D1
+Text GLabel 4200 5100 0    50   BiDi ~ 0
+PI-D2
+Text GLabel 4200 5200 0    50   BiDi ~ 0
+PI-D3
+Text GLabel 4200 5400 0    50   BiDi ~ 0
+PI-D5
+Text GLabel 4200 5500 0    50   BiDi ~ 0
+PI-D6
+Text GLabel 4200 5600 0    50   BiDi ~ 0
+PI-D7
+Text GLabel 4200 5300 0    50   BiDi ~ 0
+PI-D4
+Text GLabel 4200 3300 0    50   BiDi ~ 0
+PI-DP
+Text GLabel 5300 3100 2    50   BiDi ~ 0
+PI-I_O
+Text GLabel 5300 4700 2    50   BiDi ~ 0
+PI-I_O
+$Comp
+L power:+5V #PWR012
+U 1 1 60B28FD1
+P 4150 3100
+F 0 "#PWR012" H 4150 2950 50  0001 C CNN
+F 1 "+5V" V 4165 3228 50  0000 L CNN
+F 2 "" H 4150 3100 50  0001 C CNN
+F 3 "" H 4150 3100 50  0001 C CNN
+	1    4150 3100
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:+5V #PWR015
+U 1 1 60B29986
+P 4200 4700
+F 0 "#PWR015" H 4200 4550 50  0001 C CNN
+F 1 "+5V" V 4215 4828 50  0000 L CNN
+F 2 "" H 4200 4700 50  0001 C CNN
+F 3 "" H 4200 4700 50  0001 C CNN
+	1    4200 4700
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:GND #PWR016
+U 1 1 60B29F0D
+P 4200 4800
+F 0 "#PWR016" H 4200 4550 50  0001 C CNN
+F 1 "GND" V 4205 4672 50  0000 R CNN
+F 2 "" H 4200 4800 50  0001 C CNN
+F 3 "" H 4200 4800 50  0001 C CNN
+	1    4200 4800
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR013
+U 1 1 60B2A4F1
+P 4150 3200
+F 0 "#PWR013" H 4150 2950 50  0001 C CNN
+F 1 "GND" V 4155 3072 50  0000 R CNN
+F 2 "" H 4150 3200 50  0001 C CNN
+F 3 "" H 4150 3200 50  0001 C CNN
+	1    4150 3200
+	0    1    1    0   
+$EndComp
+NoConn ~ 2500 7000
+Text GLabel 3900 1450 3    50   BiDi ~ 0
+PI-ACK
+Text GLabel 4000 1450 3    50   BiDi ~ 0
+PI-ATN
+Wire Wire Line
+	7400 4700 7450 4700
+Wire Wire Line
+	6250 4700 6300 4700
+Wire Wire Line
+	7450 3200 7400 3200
+Wire Wire Line
+	7400 3100 7450 3100
+Wire Wire Line
+	4150 3100 4200 3100
+Wire Wire Line
+	4150 3200 4200 3200
+$Comp
+L Device:R_Small R1
+U 1 1 5EF6D1CC
+P 750 1200
+F 0 "R1" H 809 1246 50  0000 L CNN
+F 1 "44" H 809 1155 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" H 750 1200 50  0001 C CNN
+F 3 "~" H 750 1200 50  0001 C CNN
+	1    750  1200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small R2
+U 1 1 5EF6DD93
+P 1200 1200
+F 0 "R2" H 1259 1246 50  0000 L CNN
+F 1 "44" H 1259 1155 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" H 1200 1200 50  0001 C CNN
+F 3 "~" H 1200 1200 50  0001 C CNN
+	1    1200 1200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small R3
+U 1 1 5EF6DF39
+P 1700 1200
+F 0 "R3" H 1759 1246 50  0000 L CNN
+F 1 "112" H 1759 1155 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" H 1700 1200 50  0001 C CNN
+F 3 "~" H 1700 1200 50  0001 C CNN
+	1    1700 1200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small R4
+U 1 1 5EF6E103
+P 2150 1200
+F 0 "R4" H 2209 1246 50  0000 L CNN
+F 1 "44" H 2209 1155 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" H 2150 1200 50  0001 C CNN
+F 3 "~" H 2150 1200 50  0001 C CNN
+	1    2150 1200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:LED_Small D2
+U 1 1 5EF6E9E0
+P 750 1400
+F 0 "D2" V 796 1330 50  0000 R CNN
+F 1 "LED_Small" V 705 1330 50  0000 R CNN
+F 2 "LED_SMD:LED_0805_2012Metric" V 750 1400 50  0001 C CNN
+F 3 "~" V 750 1400 50  0001 C CNN
+	1    750  1400
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:LED_Small D3
+U 1 1 5EF6FA85
+P 1200 1400
+F 0 "D3" V 1246 1330 50  0000 R CNN
+F 1 "LED_Small" V 1155 1330 50  0000 R CNN
+F 2 "LED_SMD:LED_0805_2012Metric" V 1200 1400 50  0001 C CNN
+F 3 "~" V 1200 1400 50  0001 C CNN
+	1    1200 1400
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:LED_Small D4
+U 1 1 5EF6FD13
+P 1700 1400
+F 0 "D4" V 1746 1330 50  0000 R CNN
+F 1 "LED_Small" V 1655 1330 50  0000 R CNN
+F 2 "LED_SMD:LED_0805_2012Metric" V 1700 1400 50  0001 C CNN
+F 3 "~" V 1700 1400 50  0001 C CNN
+	1    1700 1400
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:LED_Small D5
+U 1 1 5EF6FF93
+P 2150 1400
+F 0 "D5" V 2196 1330 50  0000 R CNN
+F 1 "LED_Small" V 2105 1330 50  0000 R CNN
+F 2 "LED_SMD:LED_0805_2012Metric" V 2150 1400 50  0001 C CNN
+F 3 "~" V 2150 1400 50  0001 C CNN
+	1    2150 1400
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	750  1500 750  1700
+Wire Wire Line
+	2150 1700 2150 1500
+Wire Wire Line
+	1700 1500 1700 1700
+Connection ~ 1700 1700
+Wire Wire Line
+	1700 1700 2150 1700
+Wire Wire Line
+	1200 1500 1200 1700
+Connection ~ 1200 1700
+Wire Wire Line
+	1200 1700 1450 1700
+Wire Wire Line
+	750  1000 750  1100
+$Comp
+L power:+3V3 #PWR037
+U 1 1 5EF9202D
+P 2150 1000
+F 0 "#PWR037" H 2150 850 50  0001 C CNN
+F 1 "+3V3" H 2165 1173 50  0000 C CNN
+F 2 "" H 2150 1000 50  0001 C CNN
+F 3 "" H 2150 1000 50  0001 C CNN
+	1    2150 1000
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR036
+U 1 1 5EF92608
+P 1700 1000
+F 0 "#PWR036" H 1700 850 50  0001 C CNN
+F 1 "+5V" V 1715 1128 50  0000 L CNN
+F 2 "" H 1700 1000 50  0001 C CNN
+F 3 "" H 1700 1000 50  0001 C CNN
+	1    1700 1000
+	1    0    0    -1  
+$EndComp
+Text GLabel 1200 1000 1    50   BiDi ~ 0
+DBG_LED
+Wire Wire Line
+	1200 1100 1200 1000
+Wire Wire Line
+	1700 1100 1700 1000
+Wire Wire Line
+	2150 1100 2150 1000
+Wire Wire Line
+	750  1700 1200 1700
+Wire Wire Line
+	1450 1750 1450 1700
+Connection ~ 1450 1700
+Wire Wire Line
+	1450 1700 1700 1700
+Wire Notes Line
+	550  550  2700 550 
+Wire Notes Line
+	2700 550  2700 2250
+Wire Notes Line
+	2700 2250 550  2250
+Wire Notes Line
+	550  2250 550  550 
+Text Notes 650  2200 0    50   ~ 0
+Activity, Debug and Power LEDs
+Wire Notes Line
+	2900 2250 2900 550 
+Wire Notes Line
+	2900 550  5600 550 
+Wire Notes Line
+	5600 550  5600 2250
+Wire Notes Line
+	5600 2250 2900 2250
+Text Notes 2950 2200 0    50   ~ 0
+Pull-up resistors for Raspberry Pi 3.3v Signals
+Wire Notes Line
+	5800 550  5800 2250
+Wire Notes Line
+	8900 2250 8900 550 
+Wire Notes Line
+	8900 550  5800 550 
+Text Notes 5850 2200 0    50   ~ 0
+SCSI Termination Resistors
+$Comp
+L Connector:Raspberry_Pi_2_3 J1
+U 1 1 60B58FCD
+P 1950 4450
+F 0 "J1" H 1950 5931 50  0000 C CNN
+F 1 "Raspberry_Pi_2_3" H 1950 5840 50  0000 C CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_2x20_P2.54mm_Vertical" H 1950 4450 50  0001 C CNN
+F 3 "https://www.raspberrypi.org/documentation/hardware/raspberrypi/schematics/rpi_SCH_3bplus_1p0_reduced.pdf" H 1950 4450 50  0001 C CNN
+	1    1950 4450
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR02
+U 1 1 60B5EE75
+P 1850 2950
+F 0 "#PWR02" H 1850 2800 50  0001 C CNN
+F 1 "+5V" H 1850 3100 50  0000 C CNN
+F 2 "" H 1850 2950 50  0001 C CNN
+F 3 "" H 1850 2950 50  0001 C CNN
+	1    1850 2950
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR03
+U 1 1 60B5EE81
+P 1850 5800
+F 0 "#PWR03" H 1850 5550 50  0001 C CNN
+F 1 "GND" H 1855 5627 50  0000 C CNN
+F 2 "" H 1850 5800 50  0001 C CNN
+F 3 "" H 1850 5800 50  0001 C CNN
+	1    1850 5800
+	1    0    0    -1  
+$EndComp
+Text GLabel 2750 5150 2    50   BiDi ~ 0
+PI-D2
+Text GLabel 1150 3650 0    50   BiDi ~ 0
+PI-D5
+Text GLabel 1150 3850 0    50   BiDi ~ 0
+PI-D6
+Text GLabel 1150 3550 0    50   BiDi ~ 0
+PI-D4
+Text GLabel 1150 4050 0    50   BiDi ~ 0
+PI-DP
+Text GLabel 1150 5050 0    50   BiDi ~ 0
+PI-BSY
+Text GLabel 1150 4850 0    50   BiDi ~ 0
+PI-C_D
+Text GLabel 1150 4650 0    50   BiDi ~ 0
+PI-REQ
+Text GLabel 1150 4450 0    50   BiDi ~ 0
+PI-ACK
+Text GLabel 1150 4350 0    50   BiDi ~ 0
+PI-RST
+$Comp
+L power:+3V3 #PWR05
+U 1 1 60B68AA4
+P 2150 2950
+F 0 "#PWR05" H 2150 2800 50  0001 C CNN
+F 1 "+3V3" V 2250 3000 50  0000 C CNN
+F 2 "" H 2150 2950 50  0001 C CNN
+F 3 "" H 2150 2950 50  0001 C CNN
+	1    2150 2950
+	1    0    0    -1  
+$EndComp
+Text GLabel 2750 4850 2    50   BiDi ~ 0
+PI-D0
+Text GLabel 2750 4950 2    50   BiDi ~ 0
+PI-D1
+Text GLabel 2750 5250 2    50   BiDi ~ 0
+PI-D3
+Text GLabel 1150 3950 0    50   BiDi ~ 0
+PI-D7
+Text GLabel 1150 4750 0    50   BiDi ~ 0
+PI-MSG
+Text GLabel 1150 4950 0    50   BiDi ~ 0
+PI-I_O
+Text GLabel 1150 4250 0    50   BiDi ~ 0
+PI-ATN
+Text GLabel 1150 5150 0    50   BiDi ~ 0
+PI-SEL
+Text GLabel 2750 4150 2    50   BiDi ~ 0
+ACT
+$Comp
+L power:+5V #PWR01
+U 1 1 60B793DE
+P 1750 2950
+F 0 "#PWR01" H 1750 2800 50  0001 C CNN
+F 1 "+5V" V 1650 3000 50  0000 C CNN
+F 2 "" H 1750 2950 50  0001 C CNN
+F 3 "" H 1750 2950 50  0001 C CNN
+	1    1750 2950
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3V3 #PWR04
+U 1 1 60B79625
+P 2050 2950
+F 0 "#PWR04" H 2050 2800 50  0001 C CNN
+F 1 "+3V3" H 2050 3100 50  0000 C CNN
+F 2 "" H 2050 2950 50  0001 C CNN
+F 3 "" H 2050 2950 50  0001 C CNN
+	1    2050 2950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2250 5750 2150 5750
+Connection ~ 1650 5750
+Wire Wire Line
+	1650 5750 1550 5750
+Connection ~ 1750 5750
+Wire Wire Line
+	1750 5750 1650 5750
+Connection ~ 1850 5750
+Wire Wire Line
+	1850 5750 1750 5750
+Connection ~ 1950 5750
+Wire Wire Line
+	1950 5750 1850 5750
+Connection ~ 2050 5750
+Wire Wire Line
+	2050 5750 1950 5750
+Connection ~ 2150 5750
+Wire Wire Line
+	2150 5750 2050 5750
+Wire Wire Line
+	2050 3150 2050 2950
+Wire Wire Line
+	2150 3150 2150 2950
+Wire Wire Line
+	1750 3150 1750 2950
+Wire Wire Line
+	1850 3150 1850 2950
+Wire Wire Line
+	1850 5800 1850 5750
+Text GLabel 2750 4250 2    50   BiDi ~ 0
+DBG_LED
+Wire Notes Line
+	550  2650 3300 2650
+Wire Notes Line
+	3300 2650 3300 6400
+Wire Notes Line
+	3300 6400 550  6400
+Wire Notes Line
+	550  6400 550  2650
+Text Notes 600  6350 0    50   ~ 0
+Raspberry Pi Connector
+Wire Notes Line
+	3500 2650 3500 6400
+Wire Notes Line
+	3500 6400 8100 6400
+Wire Notes Line
+	8100 6400 8100 2650
+Wire Notes Line
+	8100 2650 3500 2650
+Text Notes 9150 1700 0    50   ~ 0
+Terminating Resistor Power
+Text Notes 3550 6350 0    50   ~ 0
+SCSI Bus Transceivers
+Wire Wire Line
+	5300 5600 5300 5700
+Text Notes 3750 4250 1    50   ~ 0
+Change direction based upon PI-I_O
+Text Notes 3750 5850 1    50   ~ 0
+Change direction based upon PI-I_O
+Text Notes 7900 5600 1    50   ~ 0
+DIR = GND\nB is input, A is output
+Text Notes 7950 4200 1    50   ~ 0
+DIR = +5v\nA is input, B is output
+Wire Notes Line
+	8300 4850 10200 4850
+Wire Notes Line
+	10200 6400 10200 2650
+Wire Notes Line
+	10200 2650 8300 2650
+Wire Notes Line
+	8300 2650 8300 6400
+Text Notes 8400 4800 0    50   ~ 0
+DB-25 SCSI Connector
+Text Notes 700  7850 0    50   ~ 0
+SCSI Ribbon Cable
+Text Notes 3850 6750 0    100  ~ 0
+ONLY THE DB-25 OR RIBBON CABLE SHOULD BE USED!!\nDO NOT USE BOTH AT THE SAME TIME!
+Text Notes 3900 7750 0    50   ~ 0
+This card include bus transceiver logic to allow a Raspberry \nPi to connect to a vintage Macintosh SCSI port. (It may \nwork with other systems as well)\n\nThis design is based upon fran-cap's design\nhttps://github.com/fran-cap/RASCSI-68kmlaver\n... which was based on the original Gimmons design:\nhttp://retropc.net/gimons/rascsi/\n\nThank you to everyone who has worked on this project!!
+Wire Wire Line
+	9900 850  9900 1000
+Wire Wire Line
+	9900 1000 9150 1000
+Wire Wire Line
+	9150 1000 9150 1250
+Wire Wire Line
+	9150 1250 9250 1250
+Wire Notes Line
+	550  6600 3800 6600
+Wire Notes Line
+	3800 6600 3800 7900
+Wire Notes Line
+	3800 7900 550  7900
+Wire Notes Line
+	550  7900 550  6600
+Wire Notes Line
+	9100 1750 10250 1750
+Wire Notes Line
+	10250 1750 10250 550 
+Wire Notes Line
+	10250 550  9100 550 
+Wire Notes Line
+	9100 550  9100 1750
+$Comp
+L power:GND #PWR0101
+U 1 1 5F3086C0
+P 3300 7600
+F 0 "#PWR0101" H 3300 7350 50  0001 C CNN
+F 1 "GND" H 3305 7427 50  0000 C CNN
+F 2 "" H 3300 7600 50  0001 C CNN
+F 3 "" H 3300 7600 50  0001 C CNN
+	1    3300 7600
+	1    0    0    -1  
+$EndComp
+Connection ~ 3300 7600
+$Comp
+L Library_Loader_Parts:DLS3XS6AK44X J2
+U 1 1 5F429403
+P 9200 4650
+F 0 "J2" H 11044 4696 50  0000 L CNN
+F 1 "DLS3XS6AK44X" V 10850 3950 50  0000 L CNN
+F 2 "DLS3XS6AK44X" H 10850 4950 50  0001 L CNN
+F 3 "https://componentsearchengine.com/Datasheets/1/DLS3XS6AK44X.pdf" H 10850 4850 50  0001 L CNN
+F 4 "D-Sub Standard Connectors 25P F R/A .370 4-40 C/W HEX" H 10850 4750 50  0001 L CNN "Description"
+F 5 "12.5" H 10850 4650 50  0001 L CNN "Height"
+F 6 "706-DLS3XS6AK44X" H 10850 4550 50  0001 L CNN "Mouser Part Number"
+F 7 "https://www.mouser.com/Search/Refine.aspx?Keyword=706-DLS3XS6AK44X" H 10850 4450 50  0001 L CNN "Mouser Price/Stock"
+F 8 "CONEC" H 10850 4350 50  0001 L CNN "Manufacturer_Name"
+F 9 "DLS3XS6AK44X" H 10850 4250 50  0001 L CNN "Manufacturer_Part_Number"
+	1    9200 4650
+	0    -1   -1   0   
+$EndComp
+Text GLabel 8700 3850 0    50   BiDi ~ 0
+C-D0
+Text GLabel 9700 3950 2    50   BiDi ~ 0
+C-D1
+Text GLabel 9700 4050 2    50   BiDi ~ 0
+C-D2
+Text GLabel 8700 4050 0    50   BiDi ~ 0
+C-D3
+Text GLabel 9700 4150 2    50   BiDi ~ 0
+C-D4
+Text GLabel 8700 4150 0    50   BiDi ~ 0
+C-D5
+Text GLabel 8700 4250 0    50   BiDi ~ 0
+C-D6
+Text GLabel 8700 4350 0    50   BiDi ~ 0
+C-D7
+Text GLabel 9700 3850 2    50   BiDi ~ 0
+C-DP
+Text GLabel 9700 3550 2    50   BiDi ~ 0
+C-ATN
+Text GLabel 8700 3650 0    50   BiDi ~ 0
+C-BSY
+Text GLabel 8700 3550 0    50   BiDi ~ 0
+C-ACK
+Text GLabel 8700 3450 0    50   BiDi ~ 0
+C-RST
+Text GLabel 8700 3250 0    50   BiDi ~ 0
+C-MSG
+Text GLabel 9700 3750 2    50   BiDi ~ 0
+C-SEL
+Text GLabel 9700 3350 2    50   BiDi ~ 0
+C-C_D
+Text GLabel 8700 3150 0    50   BiDi ~ 0
+C-REQ
+Text GLabel 8700 3350 0    50   BiDi ~ 0
+C-I_O
+Text GLabel 9700 4350 2    50   BiDi ~ 0
+TERMPOW
+$Comp
+L power:GND #PWR033
+U 1 1 5F436924
+P 9200 4650
+F 0 "#PWR033" H 9200 4400 50  0001 C CNN
+F 1 "GND" V 9205 4522 50  0000 R CNN
+F 2 "" H 9200 4650 50  0001 C CNN
+F 3 "" H 9200 4650 50  0001 C CNN
+	1    9200 4650
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:GND #PWR034
+U 1 1 5F460701
+P 9700 3250
+F 0 "#PWR034" H 9700 3000 50  0001 C CNN
+F 1 "GND" V 9705 3122 50  0000 R CNN
+F 2 "" H 9700 3250 50  0001 C CNN
+F 3 "" H 9700 3250 50  0001 C CNN
+	1    9700 3250
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:GND #PWR035
+U 1 1 5F460CF4
+P 9700 3450
+F 0 "#PWR035" H 9700 3200 50  0001 C CNN
+F 1 "GND" V 9705 3322 50  0000 R CNN
+F 2 "" H 9700 3450 50  0001 C CNN
+F 3 "" H 9700 3450 50  0001 C CNN
+	1    9700 3450
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:GND #PWR038
+U 1 1 5F460F07
+P 9700 3650
+F 0 "#PWR038" H 9700 3400 50  0001 C CNN
+F 1 "GND" V 9705 3522 50  0000 R CNN
+F 2 "" H 9700 3650 50  0001 C CNN
+F 3 "" H 9700 3650 50  0001 C CNN
+	1    9700 3650
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:GND #PWR030
+U 1 1 5F46110C
+P 8700 3750
+F 0 "#PWR030" H 8700 3500 50  0001 C CNN
+F 1 "GND" V 8705 3622 50  0000 R CNN
+F 2 "" H 8700 3750 50  0001 C CNN
+F 3 "" H 8700 3750 50  0001 C CNN
+	1    8700 3750
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR031
+U 1 1 5F4617B9
+P 8700 3950
+F 0 "#PWR031" H 8700 3700 50  0001 C CNN
+F 1 "GND" V 8705 3822 50  0000 R CNN
+F 2 "" H 8700 3950 50  0001 C CNN
+F 3 "" H 8700 3950 50  0001 C CNN
+	1    8700 3950
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR039
+U 1 1 5F461986
+P 9700 4250
+F 0 "#PWR039" H 9700 4000 50  0001 C CNN
+F 1 "GND" V 9705 4122 50  0000 R CNN
+F 2 "" H 9700 4250 50  0001 C CNN
+F 3 "" H 9700 4250 50  0001 C CNN
+	1    9700 4250
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:GND #PWR032
+U 1 1 5F462686
+P 9200 2850
+F 0 "#PWR032" H 9200 2600 50  0001 C CNN
+F 1 "GND" V 9205 2722 50  0000 R CNN
+F 2 "" H 9200 2850 50  0001 C CNN
+F 3 "" H 9200 2850 50  0001 C CNN
+	1    9200 2850
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Mechanical:MountingHole_Pad H1
+U 1 1 5EF88248
+P 8450 5050
+F 0 "H1" H 8550 5099 50  0000 L CNN
+F 1 "Hole1" H 8550 5008 50  0000 L CNN
+F 2 "MountingHole:MountingHole_2.7mm_M2.5_Pad_Via" H 8450 5050 50  0001 C CNN
+F 3 "~" H 8450 5050 50  0001 C CNN
+	1    8450 5050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole_Pad H3
+U 1 1 5EF89564
+P 9250 5050
+F 0 "H3" H 9350 5099 50  0000 L CNN
+F 1 "Hole3" H 9350 5008 50  0000 L CNN
+F 2 "MountingHole:MountingHole_2.7mm_M2.5_Pad_Via" H 9250 5050 50  0001 C CNN
+F 3 "~" H 9250 5050 50  0001 C CNN
+	1    9250 5050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole_Pad H4
+U 1 1 5EF896FC
+P 9250 5500
+F 0 "H4" H 9350 5549 50  0000 L CNN
+F 1 "Hole5" H 9350 5458 50  0000 L CNN
+F 2 "MountingHole:MountingHole_2.7mm_M2.5_Pad_Via" H 9250 5500 50  0001 C CNN
+F 3 "~" H 9250 5500 50  0001 C CNN
+	1    9250 5500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole_Pad H2
+U 1 1 5EF89881
+P 8850 5050
+F 0 "H2" H 8950 5099 50  0000 L CNN
+F 1 "Hole2" H 8950 5008 50  0000 L CNN
+F 2 "MountingHole:MountingHole_2.7mm_M2.5_Pad_Via" H 8850 5050 50  0001 C CNN
+F 3 "~" H 8850 5050 50  0001 C CNN
+	1    8850 5050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole_Pad H5
+U 1 1 5EF89A1E
+P 9650 5050
+F 0 "H5" H 9750 5099 50  0000 L CNN
+F 1 "Hole4" H 9750 5008 50  0000 L CNN
+F 2 "MountingHole:MountingHole_2.7mm_M2.5_Pad_Via" H 9650 5050 50  0001 C CNN
+F 3 "~" H 9650 5050 50  0001 C CNN
+	1    9650 5050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole_Pad H6
+U 1 1 5EF89B2F
+P 9650 5500
+F 0 "H6" H 9750 5549 50  0000 L CNN
+F 1 "Hole6" H 9750 5458 50  0000 L CNN
+F 2 "MountingHole:MountingHole_2.7mm_M2.5_Pad_Via" H 9650 5500 50  0001 C CNN
+F 3 "~" H 9650 5500 50  0001 C CNN
+	1    9650 5500
+	1    0    0    -1  
+$EndComp
+$Comp
+L rascsi_din-eagle-import:LOGO L1
+U 1 1 5EFCC51E
+P 8550 5950
+F 0 "L1" H 8700 5950 50  0000 L CNN
+F 1 "Mac" H 8650 5900 50  0000 L CNN
+F 2 "rascsi_din:mac_happy_small" H 8550 5950 50  0001 C CNN
+F 3 "" H 8550 5950 50  0001 C CNN
+	1    8550 5950
+	1    0    0    -1  
+$EndComp
+$Comp
+L rascsi_din-eagle-import:LOGO L2
+U 1 1 5EFCD6CA
+P 8550 6150
+F 0 "L2" H 8700 6150 50  0000 L CNN
+F 1 "Dogcow" H 8650 6100 50  0000 L CNN
+F 2 "rascsi_din:dogcow" H 8550 6150 50  0001 C CNN
+F 3 "" H 8550 6150 50  0001 C CNN
+	1    8550 6150
+	1    0    0    -1  
+$EndComp
+$Comp
+L rascsi_din-eagle-import:LOGO L3
+U 1 1 5EFCD8D2
+P 9050 5950
+F 0 "L3" H 9200 5950 50  0000 L CNN
+F 1 "Mac2" H 9150 5900 50  0000 L CNN
+F 2 "rascsi_din:mac_happy_small" H 9050 5950 50  0001 C CNN
+F 3 "" H 9050 5950 50  0001 C CNN
+	1    9050 5950
+	1    0    0    -1  
+$EndComp
+$Comp
+L rascsi_din-eagle-import:LOGO L4
+U 1 1 5EFCDBC9
+P 9050 6150
+F 0 "L4" H 9200 6200 50  0000 L CNN
+F 1 "Dogcow2" H 9128 6130 50  0000 L CNN
+F 2 "rascsi_din:dogcow" H 9050 6150 50  0001 C CNN
+F 3 "" H 9050 6150 50  0001 C CNN
+	1    9050 6150
+	1    0    0    -1  
+$EndComp
+$Comp
+L rascsi_din-eagle-import:LOGO L6
+U 1 1 5EFCDFAD
+P 9550 6200
+F 0 "L6" H 9750 6200 50  0000 L CNN
+F 1 "Mac Trashcan" H 9650 6150 50  0000 L CNN
+F 2 "rascsi_din:mac_trashcan" H 9550 6200 50  0001 C CNN
+F 3 "" H 9550 6200 50  0001 C CNN
+	1    9550 6200
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR040
+U 1 1 5EFE78A6
+P 8450 5150
+F 0 "#PWR040" H 8450 4900 50  0001 C CNN
+F 1 "GND" H 8455 4977 50  0000 C CNN
+F 2 "" H 8450 5150 50  0001 C CNN
+F 3 "" H 8450 5150 50  0001 C CNN
+	1    8450 5150
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR042
+U 1 1 5EFE8543
+P 9250 5150
+F 0 "#PWR042" H 9250 4900 50  0001 C CNN
+F 1 "GND" H 9255 4977 50  0000 C CNN
+F 2 "" H 9250 5150 50  0001 C CNN
+F 3 "" H 9250 5150 50  0001 C CNN
+	1    9250 5150
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR043
+U 1 1 5EFE8860
+P 9250 5600
+F 0 "#PWR043" H 9250 5350 50  0001 C CNN
+F 1 "GND" H 9255 5427 50  0000 C CNN
+F 2 "" H 9250 5600 50  0001 C CNN
+F 3 "" H 9250 5600 50  0001 C CNN
+	1    9250 5600
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR045
+U 1 1 5EFE8C0E
+P 9650 5600
+F 0 "#PWR045" H 9650 5350 50  0001 C CNN
+F 1 "GND" H 9655 5427 50  0000 C CNN
+F 2 "" H 9650 5600 50  0001 C CNN
+F 3 "" H 9650 5600 50  0001 C CNN
+	1    9650 5600
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR044
+U 1 1 5EFE8DBD
+P 9650 5150
+F 0 "#PWR044" H 9650 4900 50  0001 C CNN
+F 1 "GND" H 9655 4977 50  0000 C CNN
+F 2 "" H 9650 5150 50  0001 C CNN
+F 3 "" H 9650 5150 50  0001 C CNN
+	1    9650 5150
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR041
+U 1 1 5EFE8FE4
+P 8850 5150
+F 0 "#PWR041" H 8850 4900 50  0001 C CNN
+F 1 "GND" H 8855 4977 50  0000 C CNN
+F 2 "" H 8850 5150 50  0001 C CNN
+F 3 "" H 8850 5150 50  0001 C CNN
+	1    8850 5150
+	1    0    0    -1  
+$EndComp
+Wire Notes Line
+	8300 5850 10200 5850
+Wire Notes Line
+	10200 6400 8300 6400
+Text Notes 8350 6350 0    50   ~ 0
+Images
+Text Notes 8350 5800 0    50   ~ 0
+Mounting Holes
+$Comp
+L power:+5V #PWR048
+U 1 1 5F0B94FB
+P 2950 6250
+F 0 "#PWR048" H 2950 6100 50  0001 C CNN
+F 1 "+5V" V 2950 6450 50  0000 C CNN
+F 2 "" H 2950 6250 50  0001 C CNN
+F 3 "" H 2950 6250 50  0001 C CNN
+	1    2950 6250
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:GND #PWR047
+U 1 1 5F0B9E0E
+P 2950 6150
+F 0 "#PWR047" H 2950 5900 50  0001 C CNN
+F 1 "GND" V 2950 5950 50  0000 C CNN
+F 2 "" H 2950 6150 50  0001 C CNN
+F 3 "" H 2950 6150 50  0001 C CNN
+	1    2950 6150
+	0    1    1    0   
+$EndComp
+$Comp
+L power:+3V3 #PWR046
+U 1 1 5F0BA39A
+P 2950 6050
+F 0 "#PWR046" H 2950 5900 50  0001 C CNN
+F 1 "+3V3" V 2950 6250 50  0000 C CNN
+F 2 "" H 2950 6050 50  0001 C CNN
+F 3 "" H 2950 6050 50  0001 C CNN
+	1    2950 6050
+	0    -1   -1   0   
+$EndComp
+Text GLabel 2750 3850 2    50   BiDi ~ 0
+PI_SDA
+Text GLabel 2750 3950 2    50   BiDi ~ 0
+PI_SCL
+Text GLabel 2950 5850 0    50   BiDi ~ 0
+PI_SDA
+Text GLabel 2950 5950 0    50   BiDi ~ 0
+PI_SCL
+$Comp
+L Connector:Conn_01x05_Male J4
+U 1 1 5F0B528E
+P 3150 6050
+F 0 "J4" H 3122 5982 50  0000 R CNN
+F 1 "I2C Pinout" H 3550 6350 50  0000 R CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_1x05_P2.54mm_Vertical" H 3150 6050 50  0001 C CNN
+F 3 "~" H 3150 6050 50  0001 C CNN
+	1    3150 6050
+	-1   0    0    1   
+$EndComp
+Wire Notes Line
+	3300 5700 2550 5700
+Wire Notes Line
+	2550 5700 2550 6400
+NoConn ~ 2750 4750
+NoConn ~ 2750 4650
+NoConn ~ 2750 4550
+NoConn ~ 2750 4350
+NoConn ~ 2750 3550
+NoConn ~ 2750 3650
+Wire Notes Line
+	5800 2250 8900 2250
+Wire Wire Line
+	6150 1350 6500 1350
+Wire Wire Line
+	6500 1350 6500 600 
+Wire Wire Line
+	6500 600  6700 600 
+Wire Wire Line
+	6700 600  7800 600 
+Connection ~ 6700 600 
+Wire Wire Line
+	6050 1450 6600 1450
+Wire Wire Line
+	6600 1450 6600 1350
+Wire Wire Line
+	6600 1350 6700 1350
+Wire Wire Line
+	7800 1350 6700 1350
+Connection ~ 6700 1350
+Text Notes 5900 1800 0    39   Italic 0
+Jumper to enable or\ndisable SCSI \ntermination
+$Comp
+L Device:Jumper_NC_Small JP1
+U 1 1 5F16B1A9
+P 6050 950
+F 0 "JP1" H 6000 900 50  0000 L CNN
+F 1 "Term_Enable_GND" H 5850 800 50  0000 L CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_1x02_P2.54mm_Vertical" H 6050 950 50  0001 C CNN
+F 3 "~" H 6050 950 50  0001 C CNN
+	1    6050 950 
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:Jumper_NC_Small JP2
+U 1 1 5F16C1FD
+P 6150 950
+F 0 "JP2" H 6100 1050 50  0000 L CNN
+F 1 "Term_Enable_5v" H 5950 1150 50  0000 L CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_1x02_P2.54mm_Vertical" H 6150 950 50  0001 C CNN
+F 3 "~" H 6150 950 50  0001 C CNN
+	1    6150 950 
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	6050 850  6050 750 
+Wire Wire Line
+	6150 850  6150 750 
+Wire Wire Line
+	6150 1050 6150 1350
+Wire Wire Line
+	6050 1050 6050 1450
+$Comp
+L rascsi_din-eagle-import:LOGO L7
+U 1 1 5F2D2B3B
+P 9050 6300
+F 0 "L7" H 8900 6300 50  0000 R CNN
+F 1 "Raspberry Pi" H 8950 6350 50  0000 R CNN
+F 2 "rascsi_din:pi_logo" H 9050 6300 50  0001 C CNN
+F 3 "" H 9050 6300 50  0001 C CNN
+	1    9050 6300
+	-1   0    0    1   
+$EndComp
+$Comp
+L rascsi_din-eagle-import:LOGO L5
+U 1 1 5EFCDD94
+P 9550 5950
+F 0 "L5" H 9350 5950 50  0000 R CNN
+F 1 "Raspberry Pi" H 9400 6000 50  0000 R CNN
+F 2 "rascsi_din:pi_logo" H 9550 5950 50  0001 C CNN
+F 3 "" H 9550 5950 50  0001 C CNN
+	1    9550 5950
+	-1   0    0    1   
+$EndComp
+Text Notes 5250 2850 0    92   ~ 0
+THIS IS AN ERROR!!!\n
+Text Notes 5250 2650 0    39   ~ 0
+This should be PI-ACT. To correct this, cut \nthe trace to pin 1 of U3, and run a jumper \nwire to Pin 7 of the Raspberry Pi GPIO header.
+Wire Notes Line
+	5200 2400 5200 2900
+Wire Notes Line
+	5200 2900 5900 2900
+Wire Notes Line
+	5900 2900 5900 3150
+Wire Notes Line
+	5900 3150 6350 3150
+Wire Notes Line
+	6350 3150 6350 2900
+Wire Notes Line
+	6350 2900 6700 2900
+Wire Notes Line
+	6700 2900 6700 2400
+Wire Notes Line
+	6700 2400 5200 2400
 $EndSCHEMATC
